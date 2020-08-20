@@ -1,3 +1,5 @@
+# A more thorough guide
+This document is intended to explain most of our convention in some detail, giving examples and use cases for most moves. For a quick reference, see the [Full_Reference](../master/Full_Reference.md) document.
 You can do three things in Hanab(i):  
  * Play a card
  * Discard a card
