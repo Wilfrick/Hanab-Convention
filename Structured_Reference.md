@@ -43,6 +43,7 @@ If you receive a clue that touches your chop card, and it is possible that this 
 1. E.g. Eve has R3, R4, B1, Y2, R5 all unclued in her hand and the other R3 has been discarded. She receives a Reds clue, touching cards 1, 2 and 5. Eve looks at the discard pile and sees that the Red 3 is in there, so this could be a Red 3 save clue, and she can't play any of these cards.
 2. E.g. The stacks are R2 Y1 G3 B5 P2 and Alice has B1 B3 P1 R4 R3. Alice's hand is unclued. Alice receives a red clue touching cards 4 and 5. Because the card on her chop (position 5) has been touched, Alice looks in the discard pile to see if there are any Red cards that need saving and sees the Red 3. However, Alice then looks at the stacks and sees that a R3 ought to be playable right away, so she is allowed to play her chop card (card 5) assuming it is a Red 3.
 3. E.g. Imagine the same setup as example two, but Alice's hand is now R3 B1 B3 P1 R4 R5. Alice again receives a Red clue, and again she looks in the discard pile and sees the Red 3 there. In this case, Alice can't assume anything about her hand (because it sort of looks like a play clue on her front card, but should also be a save) so she assumes it's a save and the only thing she concludes is that her chop card is playable in the future.
+For the sake of using compatible words to [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions), I will call this "Conditional Chop Focus", although I wouldn't focus too hard on this name.
 
 
 
