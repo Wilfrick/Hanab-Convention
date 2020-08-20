@@ -12,7 +12,7 @@ Our five players will be:
  * Charlie
  * Dave
  * Eve
-
+#Play and Save clues
 Now for a question; what should you think when you receive a clue?
 
 To answer this, I'll start by stating what you _should_ think, assuming that nothing \*special\* is going on and then later I'll define what I mean by something \*special\*. So, assuming nothing else, what should you think when you receive a clue? __It means that the newest newly clued card is playable after all of the other 'relevant' cards have been played__. For now, a 'relevant' card is a clued card in someone's hand that your card could rely on.
@@ -44,7 +44,14 @@ If you receive a clue that touches your chop card, and it is possible that this 
 2. E.g. The stacks are R2 Y1 G3 B5 P2 and Alice has B1 B3 P1 R4 R3. Alice's hand is unclued. Alice receives a red clue touching cards 4 and 5. Because the card on her chop (position 5) has been touched, Alice looks in the discard pile to see if there are any Red cards that need saving and sees the Red 3. However, Alice then looks at the stacks and sees that a R3 ought to be playable right away, so she is allowed to play her chop card (card 5) assuming it is a Red 3.
 3. E.g. Imagine the same setup as example two, but Alice's hand is now R3 B1 B3 P1 R4 R5. Alice again receives a Red clue, and again she looks in the discard pile and sees the Red 3 there. In this case, Alice can't assume anything about her hand (because it sort of looks like a play clue on her front card, but should also be a save) so she assumes it's a save and the only thing she concludes is that her chop card is playable in the future.
 
-For the sake of using compatible words to [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions), I will call this "Conditional Chop Focus", although I wouldn't focus too hard on this name.
+A 5's clue on the chop card should always be considered a save clue.
+For the sake of using compatible words to [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions), I will call this (example 2) "Conditional Chop Focus", although I wouldn't focus too hard on this name.
+
+The next two things I want to cover are Chop Moves and Finessing, both of which are useful but they are certainly not equally fun.
+
+#Chop Moves
+Sometimes you would prefer it if a player did not discard their chop card. Ofter you can arange this by giving a save clue, but sometimes you don't want to / can't do this either. It it for times like these that we define __Chop Moves__. These are \*special moves\* that have the effect of moving a player's chop a certain number of cards (generally one) forward. There are two kinds of basic chop move: The **Known trash chop move** and the **5's chop move**.
+The **known trash chop move** is the more obvious. It states that if you give a clue that touches known trash (e.g. a Ones clue when all of the ones have been played, or a yellow clue when the yellow stack is complete) then all of the cards behind the back most chop moved card are \*important\* and should not be discarded. This results in that player's chop moving forward to accomodate these new \*important\* cards.
 
 
 
