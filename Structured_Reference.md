@@ -12,7 +12,7 @@ Our five players will be:
  * Charlie
  * Dave
  * Eve
-#Play and Save clues
+# Play and Save clues
 Now for a question; what should you think when you receive a clue?
 
 To answer this, I'll start by stating what you _should_ think, assuming that nothing \*special\* is going on and then later I'll define what I mean by something \*special\*. So, assuming nothing else, what should you think when you receive a clue? __It means that the newest newly clued card is playable after all of the other 'relevant' cards have been played__. For now, a 'relevant' card is a clued card in someone's hand that your card could rely on.
@@ -49,7 +49,7 @@ For the sake of using compatible words to [Hypen-ated's convention](https://gith
 
 The next two things I want to cover are Chop Moves and Finessing, both of which are useful but they are certainly not equally fun.
 
-#Chop Moves
+# Chop Moves
 Sometimes you would prefer it if a player did not discard their chop card. Ofter you can arange this by giving a save clue, but sometimes you don't want to / can't do this either. It it for times like these that we define __Chop Moves__. These are \*special moves\* that have the effect of moving a player's chop a certain number of cards (generally one) forward. There are two kinds of basic chop move: The **Known trash chop move** and the **5's chop move**.
 The **known trash chop move** is the more obvious. It states that if you give a clue that touches known trash (e.g. a Ones clue when all of the ones have been played, or a yellow clue when the yellow stack is complete) then all of the cards behind the back most chop moved card are \*important\* and should not be discarded. This results in that player's chop moving forward to accomodate these new \*important\* cards.
 
