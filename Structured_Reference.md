@@ -1,5 +1,6 @@
 # A more thorough guide
 This document is intended to explain most of our convention in some detail, giving examples and use cases for most moves. For a quick reference, see the [Full_Reference](../master/Full_Reference.md) document.
+
 You can do three things in Hanab(i):  
  * Play a card
  * Discard a card
@@ -53,7 +54,12 @@ The next two things I want to cover are Chop Moves and Finessing, both of which 
 
 # Chop Moves
 Sometimes you would prefer it if a player did not discard their chop card. Ofter you can arange this by giving a save clue, but sometimes you don't want to / can't do this either. It it for times like these that we define __Chop Moves__. These are \*special moves\* that have the effect of moving a player's chop a certain number of cards (generally one) forward. There are two kinds of basic chop move: The **Known trash chop move** and the **5's chop move**.
-The **known trash chop move** is the more obvious. It states that if you give a clue that touches known trash (e.g. a Ones clue when all of the ones have been played, or a yellow clue when the yellow stack is complete) then all of the cards behind the back most chop moved card are \*important\* and should not be discarded. This results in that player's chop moving forward to accomodate these new \*important\* cards.
+The **known trash chop move** is the more obvious. It states that if you give a clue that touches known trash (e.g. a Ones clue when all of the ones have been played, or a yellow clue when the yellow stack is complete) then all of the cards behind the back most chop moved card are \*important\* and should not be discarded. This results in that player's chop moving forward to accomodate these new \*important\* cards. These \*important\* cards are said to have been "chop moved".
+
+The **5's chop move** only makes sense if you think about it for a bit, but after doing so you will probably come to the correct conclusion. The 5's chop move happens when you clue a 5 in a player's hand and that 5 is one away from their chop. If they had a useless card in their chop position, then you would probably wait to clue the 5, so we state that in this case the chop card has been chop moved, and the 5 had just been saved. If more than one 5 is clued, then as long as the back 5 is one away from chop it is still a 5's chop move.
+
+Some examples:
+1. Nothing has yet been played on the stacks and Bob has G4 B3 R5 Y5 R3, with the Red 3 in the discard pile. Bob is clued 5, touching cards 3 and 4. This touches a 5 on his one-away-from-chop, so Bob concludes that this is a 5's chop and marks his fifth card as \*important\* and he won't discard it. If Bob chooses to discard on his turn, he will now discard his second card (the Blue 3).
 
 
 
