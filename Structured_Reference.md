@@ -38,7 +38,7 @@ We define a player's "chop card" as the card that is next in line to be discarde
 
 There's just one more thing that I need to say before we start playing, which is about *Save Clues*.
 We define a *Critical card* to be a card which only has one copy remaining in play.
-1. E.g. a B5, or a R3 after the other R3 has been discarded.
+E.g. a B5, or a R3 after the other R3 has been discarded.
 If you receive a clue that touches your chop card, and it is possible that this clue could be talking about a critical card on your chop, then you are not to interpret this as a playable card, instead you must assume that a card is being saved and can assume almost nothing more. The only promise you are given is that your chop card will be playable in the future. You aren't even promissed that your chop card is the card that you think it is (usually - see example 2)
 1. E.g. Eve has R3, R4, B1, Y2, R5 all unclued in her hand and the other R3 has been discarded. She receives a Reds clue, touching cards 1, 2 and 5. Eve looks at the discard pile and sees that the Red 3 is in there, so this could be a Red 3 save clue, and she can't play any of these cards.
 2. E.g. Alice has 
