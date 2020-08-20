@@ -1,3 +1,3 @@
 # Hanab-Convention
 A personalised Hanab convention  
-[Homepage](../blob/home.md)
+[Homepage](../master/home.md)
