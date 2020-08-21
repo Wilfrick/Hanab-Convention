@@ -117,7 +117,11 @@ Sometimes, multiple players might have the same playable card in position 1. In 
 
 (This probably needs some more examples)
 
+# Reducing ambiguity
+It's time to address a slightly sad topic. I know I said that we assume every player is a perfect logician and that we don't make mistakes, but in reality sometimes you do, or sometimes you just can't see how to get out of a sticky situation without making a "mistake" or giving a clue that you know might result in two people
 
+# More advanced plays
+If you understand how filling in works, then you are probably ready to start on some more advanced moves.
 
 
 
