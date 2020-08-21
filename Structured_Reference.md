@@ -83,9 +83,33 @@ I'll get to that in a minute, but first I want to get some motivation / justific
    2. If I don't then I should play my front most unclued card.
 
 We call option 2.i) a **prompt**, and option 2.ii) a **finesse**, for consistency with [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
-Sometimes, there might be more than one fill in situation at a time. It might even be that a given player is being finessed more than once. In this case, when that player receives the second finesse, they should mark their _second_ unclued card as playable, because their first unclued card is already accounted for. 
+Sometimes, there might be more than one fill in situation at a time. It might even be that a given player is being finessed more than once. In this case, when that player receives the second finesse, they should mark their _second_ unclued card as playable, because their first unclued card is already accounted for.
 
+[Add examples here]
 
+## Reverse Fill in
+Sometimes the card that you are asking to be played from a fill in situation is in a player's hand who plays after the player that you clued, e.g.:
+1. The stacks are R3 Y3 G5 B4 P2
+2. Dave has G1 G3 R5 B5 P4, with nothing clued
+3. Eve has R2 B3 G2 R4 Y5, with the Red 4 clued as red and the Yellow 5 clued as a 5.
+4. Charlie clues Red to Dave, touching card 3 as a playable Red.
+What should Dave make of this? 
+
+Dave looks around at the other player's clued cards, as well as their front cards. Dave notices that Charlie has a Red 4 that she might try to play to fill in. Dave chooses to wait, not playing his red card. When Charlie plays her Red 4, Dave knows that his Red card was infact the Red 5, and he can now play it.
+
+Here are a few more examples:
+1. The stacks are R5 Y1 G5 B4 P2
+2. Bob has G1 R1 Y4 P4 B5, where the B5 has been clued as a 5 (5 save) and the Y4 and P4 have been clued as a 4 (a 4 save because the other Y4 is in the discard pile).
+3. Charlie has P3 P1 B2 B4 P5, where the B4 is clued as blue but is clearly not useful, and the P5 has been clued as a 5 (5 save).
+4. Alice clues Purple to Bob, highlighting the P4 as purple. Bob now knows that this card is a P4, and also that Alice wants it to be played.
+5. Bob looks around and sees the Purple 3 in Charlie's first position, so he discards this turn.
+6. Charlie sees that the P4 is supposed to be playable, so she fills in. Her blue card is clearly useless, and her 5 won't help (she needs to play the purple 3), so she blind plays her front card.
+7. Bob can now play the P4 on his next turn.
+
+Sometimes, multiple players might have the same playable card in position 1. In this case, the last player with that playable card should be the one to play it:
+1. The stacks are R1 Y3 G1 B1 P2
+2. Alice has B1 G4 P5 P1, all unclued
+3. Bob has P4 G1 Y5 R2, with the Y5 clued as a 5 (5 save), and the R2 clued as a 2
 
 
 
