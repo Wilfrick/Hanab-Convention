@@ -63,7 +63,7 @@ Some examples:
 2. The stacks are R5 Y3 G2 B5 P4 and Charlie has G5 Y1 B1 R2 G4, with the other Green 4 in the discard pile. Charlie receives a Reds clue, touching her fourth card. All of the reds have been played, so this is clearly a known trash chop move and her chop position card (card 5) is \*important\* and shouldn't be discarded. If she needs to discard, she will discard card 4 (because she knows it's trash), and then the B1 (which would then be in position 4) after that.
 3. Consider the same set up as above. Charlie could also be clued 2, as all of the 2's have been played and so this is also a known trash chop move with the same effect as in example 2. It might be helpful to note that a 1's clue would be misleading here. If Charlie is clued 1, this clue will touch cards 2 and 3, so she will mark cards 4 and 5 as being chop moved. This saves the Green 4, but also suggests that card 4 (the Red 2) is important for later, which is not true.
  
-# Finessing
+# Finessing (Fill in situation)
 This is quite a large topic, as this is a key way to get more cards played than would otherwise be possible. It relies on the following observation: People add new cards to the front of their hand, so this is where you are most likely to find playable unclued cards.
 We all know that we don't make mistakes, so what should you think in the following situation:
 1. The stacks are R2 Y1 G4 B4 P1
@@ -72,7 +72,7 @@ We all know that we don't make mistakes, so what should you think in the followi
 4. You have no clued cards
 5. Your turn is immediately before Charlie's
 
-It is clear that Alice has given Charlie a "bad" clue, as Charlie will conclude that her red should be a playable Red 3, but it is in fact a Red 4 and so it won't be playable on her turn. However, Alice is a perfect logician and would never give a truely bad clue, so this must have some greater meaning. We define the situation to be a **"Fill in" situation**, where someone thinks they have a playable card that needs to be played first before the card that has been clued.
+It is clear that Alice has given Charlie a "bad" clue, as Charlie will conclude that her red should be a playable Red 3, but it is in fact a Red 4 and so it won't be playable on her turn. However, Alice is a perfect logician and would never give a truely bad clue, so this must have some greater meaning. We define the situation to be a **"Fill in" situation**, where someone _**thinks**_ they have a playable card that needs to be played first before the card that has been clued.
 
 
 
