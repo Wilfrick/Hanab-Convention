@@ -60,8 +60,9 @@ The **5's chop move** only makes sense if you think about it for a bit, but afte
 
 Some examples:
 1. Nothing has yet been played on the stacks and Bob has G4 B3 R5 Y5 R3, with the Red 3 in the discard pile. Bob is clued 5, touching cards 3 and 4. This touches a 5 on his one-away-from-chop, so Bob concludes that this is a 5's chop and marks his fifth card as \*important\* and he won't discard it. If Bob chooses to discard on his turn, he will now discard his second card (the Blue 3).
-
-
+2. The stacks are R5 Y3 G2 B5 P4 and Charlie has G5 Y1 B1 R2 G4, with the other Green 4 in the discard pile. Charlie receives a Reds clue, touching her fourth card. All of the reds have been played, so this is clearly a known trash chop move and her chop position card (card 5) is \*important\* and shouldn't be discarded. If she needs to discard, she will discard card 4 (because she knows it's trash), and then the B1 (which would then be in position 4) after that.
+3. Consider the same set up as above. Charlie could also be clued 2, as all of the 2's have been played and so this is also a known trash chop move with the same effect as in example 2. It might be helpful to note that a 1's clue would be misleading here. If Charlie is clued 1, this clue will touch cards 2 and 3, so she will mark cards 4 and 5 as being chop moved. This saves the Green 4, but also suggests that card 4 (the Red 2) is important for later, which is not true.
+ 
 
 
 
