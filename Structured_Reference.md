@@ -82,7 +82,7 @@ I'll get to that in a minute, but first I want to get some motivation / justific
    1. Do I have any relevant clued cards? (Do not inclued chop moved cards here, as they have not been clued!) If I do, I should play the left / front most such card.
    2. If I don't then I should play my front most unclued card.
 
-We call option 3 a **prompt**, and option 4 a **finesse**, for consistency with [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
+We call option 2.i) a **prompt**, and option 2.ii) a **finesse**, for consistency with [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
 Sometimes, there might be more than one fill in situation at a time. It might even be that a given player is being finessed more than once. In this case, when that player receives the second finesse, they should mark their _second_ unclued card as playable, because their first unclued card is already accounted for. 
 
 
