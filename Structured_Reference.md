@@ -108,8 +108,14 @@ Here are a few more examples:
 
 Sometimes, multiple players might have the same playable card in position 1. In this case, the last player with that playable card should be the one to play it:
 1. The stacks are R1 Y3 G1 B1 P2
-2. Alice has B1 G4 P5 P1, all unclued
-3. Bob has P4 G1 Y5 R2, with the Y5 clued as a 5 (5 save), and the R2 clued as a 2
+2. Alice has B2 G4 P5 P1, all unclued
+3. Bob has B2 G1 R2 Y5, with the Y5 clued as a 5 (5 save)
+4. Charlie has G4 B5 B3 Y4, all unclued
+5. Eve clues Charlie 3, touching card 3.
+6. On Alice's turn, she sees that someone else (Bob) could be the one to fill in, so she doesn't play.
+7. Bob might be a bit confused because he expected Alice to play her blue 2, but she didn't. Bob concludes that she didn't play because she could see someone else with the blue 2, so he has it. Bob plays his front card.
+
+(This probably needs some more examples)
 
 
 
