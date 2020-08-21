@@ -74,6 +74,16 @@ We all know that we don't make mistakes, so what should you think in the followi
 
 It is clear that Alice has given Charlie a "bad" clue, as Charlie will conclude that her red should be a playable Red 3, but it is in fact a Red 4 and so it won't be playable on her turn. However, Alice is a perfect logician and would never give a truely bad clue, so this must have some greater meaning. We define the situation to be a **"Fill in" situation**, where someone _**thinks**_ they have a playable card that needs to be played first before the card that has been clued.
 
+"So who should play and which card should they play?"
+
+I'll get to that in a minute, but first I want to get some motivation / justification out of the way. If a player has lots of clued cards in their hand that aren't playable at the moment, then their hand is effectively smaller until they can play those cards. This means that there are fewer unclued cards on the table to clue and genereally work with, which is a bit sad. Therefore, we would like to be able to tell players with clued cards to play those cards in order to free up their hands. With that being said, here is how to play through a Fill in situation:
+1. Is it someone else's responsibility? If it is then I can just let them play the card and everything should be fine.
+2. I can see that no one else is going to fill in, so I need to play something, which card should I play?
+3. Do I have any relevant clued cards? (Do not inclued chop moved cards here, as they have not been clued!) If I do, I should play the left / front most such card.
+4. If I don't then I should play my front most unclued card.
+
+We call option 3 a **prompt**, and option 4 a **finesse**, for consistency with [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
+Sometimes, there might be more than one fill in situation at a time. It might even be that a given player is being finessed more than once. In this case, when that player receives the second finesse, they should mark their _second_ unclued card as playable, because their first unclued card is already accounted for. 
 
 
 
