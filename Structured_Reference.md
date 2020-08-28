@@ -214,7 +214,9 @@ When the initiator starts a play baton, the following happens:
 4. If the baton is passed to you and you have already passed it once for each playable card, then you should __kill the baton__.
 5. If someone __drops the baton__, then you should pause your thought process and wait for it to be their turn again, at which time they __pick up the baton__ and everything can continue as normal.
 
-Please note that this is just an "easier" way to come to a correct conclusion based on the idea that _passing the baton tells other players that you can see at least one more playable card in the track_. Note also that often some players will be able to figure out what is going on before everyone else, and even though they now know what is going on they may still need to follow the system to make sure that everyone eventually arrives at the same conclusion.
+Please note that what I've written here is a structured way to come to a correct conclusion based on the idea that _passing the baton tells other players that you can see at least one more playable card in the track_. Note also that often some players will be able to figure out what is going on before everyone else, and even though they now know what is going on they may still need to follow the system to make sure that everyone eventually arrives at the same conclusion. If you can guarantee that everyone will come to the correct conclusion then you don't have to follow the step by step process laid out above, but if you aren't sure then I suggest you follow it.
+
+Make sure to think about whether a player not playing is because of a reverse finesse or a play baton. Usually it should be fine, but in the case where it _is_ a reverse finesse, the finessed player __must__ play to avoid any mistakes happening, even if they would rather not because they want to pass what they think is a play baton (unless of course everyone will come to the correct conclusion). In this case, there is no play baton and the reverse finessed player is just making a mistake. 
 
 
 
