@@ -118,12 +118,58 @@ Sometimes, multiple players might have the same playable card in position 1. In 
 (This probably needs some more examples)
 
 # Reducing ambiguity
-It's time to address a slightly sad topic. I know I said that we assume every player is a perfect logician and that we don't make mistakes, but in reality sometimes you do, or sometimes you just can't see how to get out of a sticky situation without making a "mistake" or giving a clue that you know might result in two people
+It's time to address a slightly sad topic. I know I said that we assume every player is a perfect logician and that we don't make mistakes, but in reality sometimes you do, or sometimes you just can't see how to get out of a sticky situation without making a "mistake" or giving a clue that you know might result in two people ending up with the same clued card in their hands.
+When someone figures out that they have the same card in their hand as someone else, they have a few options:
+1. They could do nothing. Sometimes you don't need to do anything, just let the other player do what they want and everything will work out okay.
+2. You can discard your known duplicate. This is called a __"Sarcastic Discard"__ and it tells another player that they have this card at the front of their relevant clued cards.
+
+# Fix Clues
+It gets more interesting if the players don't even know that a bad card has been duplicated. In this case, sometimes the other team members need to use a clue to fix the situation. Using a clue in this way is a bit sad because it feels like a waste of a clue, so we agree that you would never give a "bad" fix clue. That is, if more than two clues are needed to fix a certain situation then we agree just to let it play out.
+
+(Should probably be reworded)
 
 # More advanced plays
 If you understand how filling in works, then you are probably ready to start on some more advanced moves.
 
+With the convention as stated above, most teams will have a good chance of winning a given deck. Sometimes it won't be possible, but often the team will get pretty close. How can we ensure that more of those close games become full score wins?
+If you've got this far in the document then you probably will agree with the statment that, most of the time, having more clues available as a team makes the game easier. So how can we make more clues available? We can either generate more clues, or use fewer clues. Discarding more just brings the end of the game round earlier, so that's not a great solution. We are left with trying to find ways to use fewer clues.
 
+# The Play Baton
+Sometimes a player has a known playable card in their hand and someone else has just picked up a playable card. Wouldn't it be nice if the player with the known playable card could somehow tell that other player that they have a playable card?
+E.g.
+1. The stacks are R3 Y2 G3 B3 P5 
+2. Alice has R4 G2 B1 B2, all unclued
+3. Bob has G4 P3 P2 Y1, all unclued
+4. Charlie has B2 P2 B4 G5, with the G5 clued (5 save) and the B4 clued (Blue play clue)
+5. Dave has Y1 Y2 Y3 R3, all unclued
+6. Dave clues Red to Alice, touching card 1
+7. Alice considers if she needs to wait for a reverse fill in, but sees that she doesn't need to because no one has the R4 either clued in their hand or on their finesse position.
+8. Alice notices that Bob has a playable card in his hand in his finesse position.
+
+The question now becomes: How can Alice tell Bob that he has a playable card without using a clue?
+We need to agree on some structure to help us here, so we agree on the following:
+If Alice chooses not to play, and there is no good reason to do so (if she had to give a save clue then this doesn't apply), then she is stating that she can see at least one card on _someone's_ finesse position that is playable right now.
+Who has this playable card? And for that matter how many cards can she really see?
+All that the other players know is that at least one of their combined finesse position cards are playable. Now if a certain player can't see any playable cards in anyone else's finesse positions clearly they have the playable card. In the example above, Alice doesn't play. Bob will conclude that he has a playable card in position 1 because he can't see any other playable cards in Charlie's or Dave's finesse positions. What can Charlie and Dave conclude? To answer that we will need to add some more structure, but it might help to think it through with an example:
+
+1. The stacks are R3 Y2 G3 B3 P5 
+2. Alice has R4 G2 B1 B2, all unclued
+3. Bob has G4 P3 P2 Y1, all unclued
+4. Charlie has B4 P2 B4 G5, with the G5 clued (5 save) and the B4 clued (Blue play clue)
+5. Dave has Y1 Y2 Y3 R3, all unclued
+6. Dave clues Red to Alice, touching card 1
+7. Alice considers if she needs to wait for a reverse fill in, but sees that she doesn't need to because no one has the R4 either clued in their hand or on their finesse position.
+8. Alice notices that Bob has a playable card in his hand in his finesse position.
+
+Note that this is exactly the same as before, except that now Charlie also has a playable card on slot 1. What will happen?
+1. Alice refuses to play her known playable R4. This tells everyone that Alice can see at least one playable card in someone's finesse position.
+2. Bob thinks that this is talking about Charlie's finesse position, so he discards.
+3. Charlie is confused because she thinks Bob should have played. She thinks about it and realises that when Bob didn't play he was effectively also saying that he could see at least one playable card in someone's finesse position. She looks around and concludes that she must have a playable card in slot one.
+4. Should she play this card?
+
+Well, she could. If she does, then Bob will think that everything is normal, Alice can play, and everything seems fine. There is just one slight issue though. Bob's playable Green 4 is no longer on his finesse position, and therefore can't be targeted by the same strategy on the next go round. Wouldn't it be nice if __both__ Bob and Charlie could somehow end up knowing that their finesse position cards are playbable?
+
+What would it mean if Charile didn't play? We define the following: It means she can see at least one playable card in someone's finesse positon (*almost, I'll make another definiton a bit later to make this watertight).
 
 
 
