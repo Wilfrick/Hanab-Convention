@@ -26,3 +26,5 @@ If you discard a known card, it is because someone has a the same card clued in 
 A play baton is initiated by refusing to play, among other things.
 The play baton is restricted to the current finesse position cards (usually), "the track", including the finesse position of the initiator. Each player should pass the baton on the same number of times as how many playable cards they can see on the track. If the baton makes it back to a player who has passed it on enough times, then that player should play, which tells everyone if they had a finessable card on the track or not. Playing your track position card kills the baton.
 
+## Generalised Play Baton
+This acts as a regular play baton, but the track is composed of the initiator's first finesse positon, along with everyone else's First/Second/Third/Fourth/Fifth finesse position.

@@ -218,6 +218,14 @@ Please note that what I've written here is a structured way to come to a correct
 
 Make sure to think about whether a player not playing is because of a reverse finesse or a play baton. Usually it should be fine, but in the case where it _is_ a reverse finesse, the finessed player __must__ play to avoid any mistakes happening, even if they would rather not because they want to pass what they think is a play baton (unless of course everyone will come to the correct conclusion). In this case, there is no play baton and the reverse finessed player is just making a mistake. 
 
+## Generalised Play Baton
+The idea of a play baton can be generalised by changing which cards are included in the track. Each player always only has one card on the track, but it doesn't have to be everyone's finesse positon. It could be that you would like to target someone's second finesse positon (usually the second unclued card), in which case it would be nice to use a play baton with a track that includes this card. For situations like this, we define the concept of a __First/Second/Third/Fourth/Fifth Generalised Play Baton__ as follows:
+This acts as a regular play baton, but the track is composed of the initiator's first finesse positon, along with everyone else's First/Second/Third/Fourth/Fifth finesse position.
+
+This will usually only be either a First, Second or Third Generalised Play Baton, because cards that are at the back of people's hands are very unlikely to be playable.
+Note that the First Generalised Play Baton is precisely the same thing as a "normal" Play Baton.
+
+If someone doesn't have enough finesse positions (e.g. because they only have 2 unclued cards and someone is trying to give a Third Generalised Play Baton, or if they have 3 unclued cards but the first is already tied up in a separate finesse), then the finesse positon wraps around (so in the first example that player would add their card 1 to the track and in the second example that player would add card 2 to the track.)
 
 
 
