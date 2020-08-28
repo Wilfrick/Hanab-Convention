@@ -169,7 +169,52 @@ Note that this is exactly the same as before, except that now Charlie also has a
 
 Well, she could. If she does, then Bob will think that everything is normal, Alice can play, and everything seems fine. There is just one slight issue though. Bob's playable Green 4 is no longer on his finesse position, and therefore can't be targeted by the same strategy on the next go round. Wouldn't it be nice if __both__ Bob and Charlie could somehow end up knowing that their finesse position cards are playbable?
 
-What would it mean if Charile didn't play? We define the following: It means she can see at least one playable card in someone's finesse positon (*almost, I'll make another definiton a bit later to make this watertight).
+What would it mean if Charile didn't play? We define the following: It means she can see at least one playable card in the group of cards that Alice was originally talking about (I'll call this the "track"). Bob can now conclude that he also has a playable card (in what is now slot 2). Dave still doesn't actually know if he has a playable card or not in slot one, but he can see at least one playable card in the group of cards that Alice was originally talking about, so he does't think he has a playable card yet and just discards. Alice is free to play. Now what should Bob do?
+To recap, Bob has already not played once, telling everyone else that he can see at least one playable card in the set of cards Alice is talking about. The card that he could see was the playable B4 in Charile's hand.
+Charlie then didn't play, telling everyone that she can see at least one playable card in the set of cards that Alice was talking about. She is talking about the G4 in Bob's hand.
+Bob can now conclude that he has a playable card in (what is now) slot 2. If he doesn't play, he would be stating that he can see __another__ playable card in the group of cards Alice was talking about __in addition to__ the playable B4 in Charlie's hand. But he doesn't want to say this, so he plays his playable G4.
+This tells everyone that Bob could see exactly one playable card in the set of cards that Alice was talking about, so now Dave knows that his (now second) card is in fact not playable at the moment.
+
+We are almost there! There is just one more situation that I want to consider before setting everything out formally. Consider the following setup: 
+1. The stacks are R3 Y2 G3 B3 P5 
+2. Alice has R4 G2 B1 B2, all unclued
+3. Bob has G4 P3 P2 Y1, all unclued
+4. Charlie has B2 P2 B4 G5, with the G5 clued (5 save) and the B4 clued (Blue play clue)
+5. Dave has Y1 Y2 Y3 R3, all unclued
+6. Dave clues Red to Alice, touching card 1
+
+7. Alice chooses not to play, so she discards the B2 and picks up the Y3.
+8. Alice's hand is now Y3 R4 G2 B1, with the R4 clued as playable
+9. Bob knows that Alice discarded to tell someone that they had a playable card, and he is the target of this move.
+10. Bob looks at Alice's hand and notices the Y3 in positon 1.
+11. Bob would very much like to get Alice to play the Y3 without having to 'waste' a clue on it, so how can he do this?
+
+We agree that Bob is allowed to consider Alice's finesse positon when thinking about whether he wants to play or pass on this 'playable' card
+
+12. Bob doesn't play, telling the group that he can see at least one person with a playable card in their finesse position.
+13. Charlie discards because she can see the playable card in Alice's finesse position
+14. Dave discards for the same reason
+15. Alice might now be confused because she thinks that Bob should have played. She thinks about it and concludes that Bob didn't play because she has picked up a new playable card in slot one.
+16. Alice plays this card to demonstrate that she can only see one other playable card in the original finesse positions.
+17. Everyone now knows what's going on.
+
+
+We are now ready to turn this into a format definiton, but first it might be useful to have a word for the set of cards that Alice is talking about, so let's give a definiton for that first:
+We define a __track__ to be a subset of the cards in each players' hands. A __track__ talks about the specific card in a player's hand, rather than the position in their hand. So if your first card is part of a track, and you discard, now your second card is the card in the track.
+We can now give the full definition for the play baton.
+We define the __Play Baton__ as follows:
+I will call the player that chooses to start a play baton to be the initiator.
+Playing your track card __kills the baton__.
+Doing something really important *that you __had__* to do __drops the baton__. (Things like giving save clues and chop moves)
+Doing almost anything else __passes the baton__.
+When the initiator starts a play baton, the following happens:
+1. A new track is created, comprising of the initiator's finesse positon, and then generally everyone else's finesse positon as well (although sometimes it could be everyone else's second finesse positon, or even third)
+2. Each player should count up how many playable cards they can see on the track.
+3. Each player should __pass the baton__ once for each playable card they can see on the track
+4. If the baton is passed to you and you have already passed it once for each playable card, then you should __kill the baton__.
+5. If someone __drops the baton__, then you should pause your thought process and wait for it to be their turn again, at which time they __pick up the baton__ and everything can continue as normal.
+
+Please note that this is just an "easier" way to come to a correct conclusion based on the idea that _passing the baton tells other players that you can see at least one more playable card in the track_. Note also that often some players will be able to figure out what is going on before everyone else, and even though they now know what is going on they may still need to follow the system to make sure that everyone eventually arrives at the same conclusion.
 
 
 
