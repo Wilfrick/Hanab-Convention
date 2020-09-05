@@ -128,11 +128,37 @@ It gets more interesting if the players don't even know that a bad card has been
 
 (Should probably be reworded)
 
+# The Early / Late Game
+I will take a moment to discus my understanding of the early game as defined by [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
+As far as I understand it, they define the early game as the time before the first 'deliberate' discard. This means that everyone can agree on whethere or not the team is still in the early game, or whether they have moved to the mid game. Why do we even bother with a definition like this at all? During the middle of the game, the cards in peoples' hands have a certain structure - (the newly picked up card is the most playable unclued card, the chop card is most likely useless), but at the beginning of the game there is no such structure because the 5 or 4 (or 3) cards that each player was dealt are completely random. Therefore it seems to makes sense to consider a different set of rules when a player doesn't know so much structure about their cards.
+
+~~I think that the key property here is the fact that __the order of the originally dealt cards is random__. __This is a property of those cards__, rather than a global boolean state, so I think a better use of the term "early game" would be in reference to the specific cards that were present from the beginning of the game. 
+I will therefore define the concept of an __"Early Game Card"__.
+An __Early Game Card__ is a card that has been in someone's hand since the beginning of the game.
+If a clue touches any unclued early game cards, then that clue is probably an __Early Game Clue__ and a different set of rules apply.~~
+
+I think the above is true, but I need to put more thought into whether the definiton is a good one, so for the time being I'll state that we will use the same definition for the Early Game as [Hyphen-ated](https://github.com/Zamiell/hanabi-conventions), I.E. the team as a whole is in the early game until the first intentional discard (that isn't a special move). When we are in the early game, a different set of rules should apply.
+
+What should those different set of rules be?
+At the beginning of the game, the first player must give a clue. Usually they will be able to give someone a play clue, but sometimes they won't. Because most player's finesse position cards won't be playable (and there has been no opportunity to wait to let this change), it doesn't make much sense to allow very unlikely finesses. We therefore agree that any number 5 clues are simply save clues, even if the 5s that are touched aren't on the chop. We call this kind of clue a __5 stall__, which is taken directly from [Hyphen-ated's Convention](https://github.com/Zamiell/hanabi-conventions).
+
+## 2 saves
+We would like to be able to make sure that the unclued early game cards are discardable, as this is the state that we will need to assume during the mid game. The most important cards in the game are probably 2s followed closely by 5s. (You can disagree with me here if you want, but I think it's true based on (total score that you would miss out on by not playing any copy of that card)/(number of copies of that card), with some additional score added for the fact that you get a clue back for playing a 5). We therefore agree that 2s are really important, and should probably be saved in the early game. It bears noting that if both copies of a given two are visible then they are slightly less valuable because the team has more opportunity to give clues that get them played.
+The upshot of all of this is the following:
+A 2s clue in the early game is a save clue, even if the chop card isn't touched.
+Most players would probably rather clue a single visible copy of a two rather than one of a pair, because the pair is more likely to get played anyway. This means if someone clues you a two in the early game, you can be pretty sure that it isn't the same colour as any other twos that you can see. Alternatively, it might be a play clue. Given the choice between cluing a two where both copies are visible and discarding deliberatly (to end the early game), I suggest that you should not bother cluing one of those twos, as that would probably lead to more confusion than it's worth.
+
+[Give an example 2-save here]
+
+## Remember to play the game
+In the Early Game, players will sometimes focus in on giving 2 and 5 saves over everything else. This section is here to remind you that getting playable cards played should still be high on your list of priorities. Just because a finesse is unlikely doesn't mean it won't happen and for the most part play clues still work much the same as they do in the mid game. Also remember that the Early Game will have to end at some point, and as long as a few clue have been used don't feel bad because you were the one to discard and end it. Indeed, somtimes you might want a player to think that a 2 that isn't on the chop is playable, in which case you might need to end the Early Game in order to get the right message across.
+
+
 # More advanced plays
-If you understand how filling in works, then you are probably ready to start on some more advanced moves.
+If you understand how filling in and the early game work, then you are probably ready to start on some more advanced moves.
 
 With the convention as stated above, most teams will have a good chance of winning a given deck. Sometimes it won't be possible, but often the team will get pretty close. How can we ensure that more of those close games become full score wins?
-If you've got this far in the document then you probably will agree with the statment that, most of the time, having more clues available as a team makes the game easier. So how can we make more clues available? We can either generate more clues, or use fewer clues. Discarding more just brings the end of the game round earlier, so that's not a great solution. We are left with trying to find ways to use fewer clues.
+If you've got this far in the document then you probably will agree with the statment that, most of the time, having more clues available as a team makes the game easier. So how can we make more clues available? We can either generate more clues, or use fewer clues. Discarding more (to generate more clues) just brings the end of the game round earlier, so that's not a great solution. We are left with trying to find ways to use fewer clues.
 
 # The Play Baton
 Sometimes a player has a known playable card in their hand and someone else has just picked up a playable card. Wouldn't it be nice if the player with the known playable card could somehow tell that other player that they have a playable card?
@@ -227,27 +253,5 @@ Note that the First Generalised Play Baton is precisely the same thing as a "nor
 
 If someone doesn't have enough finesse positions (e.g. because they only have 2 unclued cards and someone is trying to give a Third Generalised Play Baton, or if they have 3 unclued cards but the first is already tied up in a separate finesse), then the finesse positon wraps around (so in the first example that player would add their card 1 to the track and in the second example that player would add card 2 to the track.)
 
-## The Early / Late Game
-I probably should have introduced the earlygame earlier on in this document, so I'll probably go back and move this section earlier, but for now I'll write it here just so it's recorded somewhere at least.
-I will take a moment to discus my understanding of the early game as defined by [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
-As far as I understand it, they define the early game as the time before the first 'deliberate' discard. This means that everyone can agree on whethere or not the team is still in the early game, or whether they have moved to the mid game. Why do we even bother with a definition like this at all? During the middle of the game, the cards in peoples' hands have a certain structure - (the newly picked up card is the most playable unclued card, the chop card is most likely useless), but at the beginning of the game there is no such structure because the 5 or 4 (or 3) cards that each player was dealt are completely random. Therefore it seems to makes sense to consider a different set of rules when a player doesn't know so much structure about their cards.
-
-~~I think that the key property here is the fact that __the order of the originally dealt cards is random__. __This is a property of those cards__, rather than a global boolean state, so I think a better use of the term "early game" would be in reference to the specific cards that were present from the beginning of the game. 
-I will therefore define the concept of an __"Early Game Card"__.
-An __Early Game Card__ is a card that has been in someone's hand since the beginning of the game.
-If a clue touches any unclued early game cards, then that clue is probably an __Early Game Clue__ and a different set of rules apply.~~
-
-I think the above is true, but I need to put more thought into whether the definiton is a good one, so for the time being I'll state that we will use the same definition for the Early Game as [Hyphen-ated]((https://github.com/Zamiell/hanabi-conventions)), I.E. the team as a whole is in the early game until the first intentional discard (that isn't a special move). When we are in the early game, a different set of rules should apply.
-
-What should those different set of rules be?
-At the beginning of the game, the first player must give a clue. Usually they will be able to give someone a play clue, but sometimes they won't. Because most player's finesse position cards won't be playable (and there has been no opportunity to wait to let this change), it doesn't make much sense to allow very unlikely finesses. We therefore agree that any number 5 clues are simply save clues, even if the 5s that are touched aren't on the chop. We call this kind of clue a __5 stall__, which is taken directly from [Hyphen-ated's Convention](https://github.com/Zamiell/hanabi-conventions).
-
-### 2 saves
-We would like to be able to make sure that the unclued early game cards are discardable, as this is the state that we will need to assume during the mid game. The most important cards in the game are probably 2s followed closely by 5s. (You can disagree with me here if you want, but I think it's true based on (total score that you would miss out on by not playing any copy of that card)/(number of copies of that card), with some additional score added for the fact that you get a clue back for playing a 5). We therefore agree that 2s are really important, and should probably be saved in the early game. It bears noting that if both copies of a given two are visible then they are slightly less valuable because the team has more opportunity to give clues that get them played.
-The upshot of all of this is the following:
-A 2s clue in the early game is a save clue, even if the chop card isn't touched.
-Most players would probably rather clue a single visible copy of a two rather than one of a pair, because the pair is more likely to get played anyway. This means if someone clues you a two in the early game, you can be pretty sure that it isn't the same colour as any other twos that you can see. Alternatively, it might be a play clue. Given the choice between cluing a two where both copies are visible and discarding deliberatly (to end the early game), I suggest that you should not bother cluing one of those twos, as that would probably lead to more confusion than it's worth.
-
-[Give an example 2-save here]
 
 
