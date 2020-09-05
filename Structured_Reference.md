@@ -128,7 +128,7 @@ It gets more interesting if the players don't even know that a bad card has been
 
 (Should probably be reworded)
 
-# The Early / Late Game
+# The Early  Game
 I will take a moment to discus my understanding of the early game as defined by [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
 As far as I understand it, they define the early game as the time before the first 'deliberate' discard. This means that everyone can agree on whethere or not the team is still in the early game, or whether they have moved to the mid game. Why do we even bother with a definition like this at all? During the middle of the game, the cards in peoples' hands have a certain structure - (the newly picked up card is the most playable unclued card, the chop card is most likely useless), but at the beginning of the game there is no such structure because the 5 or 4 (or 3) cards that each player was dealt are completely random. Therefore it seems to makes sense to consider a different set of rules when a player doesn't know so much structure about their cards.
 
