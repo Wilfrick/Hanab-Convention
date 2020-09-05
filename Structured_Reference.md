@@ -245,6 +245,9 @@ At the beginning of the game, the first player must give a clue. Usually they wi
 ### 2 saves
 We would like to be able to make sure that the unclued early game cards are discardable, as this is the state that we will need to assume during the mid game. The most important cards in the game are probably 2s followed closely by 5s. (You can disagree with me here if you want, but I think it's true based on (total score that you would miss out on by not playing any copy of that card)/(number of copies of that card), with some additional score added for the fact that you get a clue back for playing a 5). We therefore agree that 2s are really important, and should probably be saved in the early game. It bears noting that if both copies of a given two are visible then they are slightly less valuable because the team has more opportunity to give clues that get them played.
 The upshot of all of this is the following:
-A 2s clue on early game cards is a save clue, even if the chop card isn't touched. 
+A 2s clue in the early game is a save clue, even if the chop card isn't touched.
+Most players would probably rather clue a single visible copy of a two rather than one of a pair, because the pair is more likely to get played anyway. This means if someone clues you a two in the early game, you can be pretty sure that it isn't the same colour as any other twos that you can see. Alternatively, it might be a play clue. Given the choice between cluing a two where both copies are visible and discarding deliberatly (to end the early game), I suggest that you should not bother cluing one of those twos, as that would probably lead to more confusion than it's worth.
+
+[Give an example 2-save here]
 
 
