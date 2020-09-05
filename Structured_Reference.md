@@ -237,6 +237,8 @@ I will therefore define the concept of an __"Early Game Card"__.
 An __Early Game Card__ is a card that has been in someone's hand since the beginning of the game.
 If a clue touches any unclued early game cards, then that clue is probably an __Early Game Clue__ and a different set of rules apply.~~
 
+I think the above is true, but I need to put more thought into whether the definiton is a good one, so for the time being I'll state that we will use the same definition for the Early Game as [Hyphen-ated]((https://github.com/Zamiell/hanabi-conventions)), I.E. the team as a whole is in the early game until the first intentional discard (that isn't a special move).
+
 What should those different set of rules be?
 At the beginning of the game, the first player must give a clue. Usually they will be able to give someone a play clue, but sometimes they won't. Because most player's finesse position cards won't be playable (and there has been no opportunity to wait to let this change), it doesn't make much sense to allow very unlikely finesses. We therefore agree that any number 5 clues are simply save clues, even if the 5s that are touched aren't on the chop. We call this kind of clue a __5 stall__, which is taken directly from [Hyphen-ated's Convention](https://github.com/Zamiell/hanabi-conventions).
 
