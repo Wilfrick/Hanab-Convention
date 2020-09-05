@@ -48,7 +48,7 @@ If you receive a clue that touches your chop card, and it is possible that this 
 3. E.g. Imagine the same setup as example two, but Alice's hand is now R3 B1 B3 P1 R4 R5. Alice again receives a Red clue, and again she looks in the discard pile and sees the Red 3 there. In this case, Alice can't assume anything about her hand (because it sort of looks like a play clue on her front card, but should also be a save) so she assumes it's a save and the only thing she concludes is that her chop card is playable in the future.
 
 A 5's clue on the chop card should always be considered a save clue.
-For the sake of using compatible words to [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions), I will call this (example 2) "Conditional Chop Focus", although I wouldn't focus too hard on this name.
+For the sake of using compatible words to [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions), I will call this (example 2) "Conditional Chop Focus", although I wouldn't focus too hard on this name.
 
 The next two things I want to cover are Chop Moves and Finessing, both of which are useful but they are certainly not equally fun.
 
@@ -82,7 +82,7 @@ I'll get to that in a minute, but first I want to get some motivation / justific
    1. Do I have any relevant clued cards? (Do not inclued chop moved cards here, as they have not been clued!) If I do, I should play the left / front most such card.
    2. If I don't then I should play my front most unclued card.
 
-We call option 2.i) a **prompt**, and option 2.ii) a **finesse**, for consistency with [Hypen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
+We call option 2.i) a **prompt**, and option 2.ii) a **finesse**, for consistency with [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
 Sometimes, there might be more than one fill in situation at a time. It might even be that a given player is being finessed more than once. In this case, when that player receives the second finesse, they should mark their _second_ unclued card as playable, because their first unclued card is already accounted for.
 
 [Add examples here]
@@ -227,7 +227,17 @@ Note that the First Generalised Play Baton is precisely the same thing as a "nor
 
 If someone doesn't have enough finesse positions (e.g. because they only have 2 unclued cards and someone is trying to give a Third Generalised Play Baton, or if they have 3 unclued cards but the first is already tied up in a separate finesse), then the finesse positon wraps around (so in the first example that player would add their card 1 to the track and in the second example that player would add card 2 to the track.)
 
+## The Early / Late Game
+I probably should have introduced the earlygame earlier on in this document, so I'll probably go back and move this section earlier, but for now I'll write it here just so it's recorded somewhere at least.
+I will take a moment to discus my understanding of the early game as defined by [Hyphen-ated's convention](https://github.com/Zamiell/hanabi-conventions).
+As far as I understand it, they define the early game as the time before the first 'deliberate' discard. This means that everyone can agree on whethere or not the team is still in the early game, or whether they have moved to the mid game. Why do we even bother with a definition like this at all? During the middle of the game, the cards in peoples' hands have a certain structure - (the newly picked up card is the most playable unclued card, the chop card is most likely useless), but at the beginning of the game there is no such structure because the 5 or 4 (or 3) cards that each play was dealt are completely random. Therefore it seems to makes sense to consider a different set of rules when a player doesn't know so much structure about their cards.
 
+I think that the key property here is the fact that __the order of the originally dealt cards is random__. __This is a property of those cards__, rather than a global boolean state, so I think a better use of the term "early game" would be in reference to the specific cards that were present from the beginning of the game. 
+I will therefore define the concept of an __"Early Game Card"__.
+An __Early Game Card__ is a card that has been in someone's hand since the beginning of the game.
+If a clue touches any unclued early game cards, then that clue is probably an __Early Game Clue__ and a different set of rules apply.
+
+What should those different set of rules be?
 
 
 
