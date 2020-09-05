@@ -256,7 +256,7 @@ If someone doesn't have enough finesse positions (e.g. because they only have 2 
 ## Diminished Play Batons
 There are other ways to generalise the play baton by modifying the track that it uses.
 Sometimes you might need to start a play baton with a track that misses out a player. For cases like this, we define the concept of a __Diminished (xth Order) Play Baton__.
-Like the other xth Order Play Batons, the Diminished xth Order Play Baton has a track comprising of the initiator's finesse position card and everyone else's xth finesse position card, except that one of the cards that should be in the track is not counted.
+Like the other xth Order Play Batons, the Diminished xth Order Play Baton has a track comprising of the initiator's finesse position card and everyone else's xth finesse position card, except that one of the cards that should be in the track is not included.
 
 
 
