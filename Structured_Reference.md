@@ -234,7 +234,6 @@ Playing your track card __kills the baton__.
 Doing something really important *that you __had__* to do __drops the baton__. (Things like giving save clues and chop moves)
 Doing almost anything else __passes the baton__.
 When the initiator starts a play baton, the following happens:
-
 1. A new track is created, comprising of the initiator's finesse positon, and then generally everyone else's finesse positon as well (although sometimes it could be everyone else's second finesse positon, or even third)
 2. Each player should count up how many playable cards they can see on the track.
 3. Each player should __pass the baton__ once for each playable card they can see on the track
