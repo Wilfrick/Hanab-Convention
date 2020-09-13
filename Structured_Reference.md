@@ -281,7 +281,7 @@ There might be other things to consider doing on your turn (like giving save clu
 
 
 Importance | Action | Reasoning
--------------------------------
+-----------|--------|----------
 0| Killing a play baton if needed | Not doing so should result in a misplay
 1| Playing an unknown finessed card | You need to know which card it is
 2| Playing an assumed finesse card | You should still check to see that it wasn't a bluff
