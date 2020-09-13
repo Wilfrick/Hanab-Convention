@@ -295,9 +295,9 @@ To answer this question I have another table of reasons to think that a card is 
 ## Playability of playable cards
 Factor to consider | Score
 ---|---
-Lower cards should be played first | +(5-rank)
 Cards that are needed for other playable cards are more important | +1 for each known playable that relies on this card being played
 Cards that are needed for other playable cards in other people's hands are even more important | +1 for each known playable that relies on this card being played that is in someone else's hand
+Lower cards should be played first | +(5-rank)
 5s should be played for their clues | +1 if we are on 0 clues
 Play from front to back | + (position in hand -1) / 5
 
