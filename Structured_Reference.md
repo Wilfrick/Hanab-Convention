@@ -277,7 +277,7 @@ This sounds nice in theory, but to use this idea we will need to know how to cho
 
 # Importance of Good Actions
 This is a formal list of the good things that you could do on your turn, in order from most important (lowest number) to least important (highest number).
-There might be other things to consider doing on your turn (like giving save clues, chop moves, lower efficiency clues), so don't forget to consider those things as well.
+There might be other things to consider doing on your turn (like giving save clues, chop moves, lower efficiency play clues), so don't forget to consider those things as well.
 
 
 Importance | Action | Reasoning
@@ -288,5 +288,30 @@ Importance | Action | Reasoning
 3| Playing a known finesse card | Most other players will assume it's not completely known and you don't want them getting the wrong idea
 4| Playing a clued playable card | Playing is necesarry to win
 5| Giving a "terrible" clue | This is good, but will take time to sort out and could get messy
+
+For option 4, if you had multiple playable cards how would you know which card is the most important (and therefore the one that you should play first)?
+To answer this question I have another table of reasons to think that a card is more playable, along with a number. The card with the highest totally number is your most important card.
+
+## Playability of playable cards
+Factor to consider | Score
+---|---
+Lower cards should be played first | +(5-rank)
+Cards that are needed for other playable cards are more important | +1 for each known playable that relies on this card being played
+Cards that are needed for other playable cards in other people's hands are even more important | +1 for each known playable that relies on this card being played that is in someone else's hand
+5s should be played for their clues | +1 if we are on 0 clues
+Play from front to back | + (position in hand -1) / 5
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
