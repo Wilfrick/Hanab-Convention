@@ -278,6 +278,8 @@ This sounds nice in theory, but to use this idea we will need to know how to cho
 # Importance of Good Actions
 This is a formal list of the good things that you could do on your turn, in order from most important (lowest number) to least important (highest number).
 There might be other things to consider doing on your turn (like giving save clues, chop moves, lower efficiency clues), so don't forget to consider those things as well.
+
+
 Importance | Action | Reasoning
 -------------------------------
 0| Killing a play baton if needed | Not doing so should result in a misplay
