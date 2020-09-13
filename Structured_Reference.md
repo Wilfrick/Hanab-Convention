@@ -299,7 +299,17 @@ Cards that are needed for other playable cards are more important | +1 for each 
 Cards that are needed for other playable cards in other people's hands are even more important | +1 for each known playable that relies on this card being played that is in someone else's hand
 Lower cards should be played first | +(5-rank)
 5s should be played for their clues | +1 if we are on 0 clues
-Play from front to back | + (position in hand -1) / 5
+Play from front to back | + (position in hand -1) / hand size
+
+Most of this should feel pretty intuative. One that might not is the random (position in hand -1) / hand size. This is just a way of writing down the fact that given nothing else, we expect each other to play from the front of the their hands.
+
+## Terribleness of terrible clues
+The two kinds of terrible clue I've mentioned so far are a useless 5s chop and a useless save clue. If you had the choice between giving both of these, which should you use? Both are a little bit sad because by lying to the recipient of the clue you are opening up the possibility that they will interpret the clue differently to how you intend. Hopefully though, if all players are aware of the possibility of terrible clues then this shouldn't be an issue.
+
+Bad save clues need very little special set up (you can usually just give a clue). This means that they are the first kind of bad clue you would try to give.
+
+Bad chop moves are more risky because the recipient knows less about the clued card (I'm not sure if this is true).
+
 
 
 
