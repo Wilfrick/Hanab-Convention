@@ -258,11 +258,33 @@ There are other ways to generalise the play baton by modifying the track that it
 Sometimes you might need to start a play baton with a track that misses out a player. For cases like this, we define the concept of a __Diminished (xth Order) Play Baton__.
 Like the other xth Order Play Batons, the Diminished xth Order Play Baton has a track comprising of the initiator's finesse position card and everyone else's xth finesse position card, except that one of the cards that should be in the track is not included.
 
+
+
 Why do I feel the need to define something like this? Well one of the key priciples that we assume is that every player is a perfect logician who doesn't make mistakes. This means that if someone gives a clue that looks bad, assuming it is a bad clue is the incorrect conclusion to reach. Instead, this "bad" clue must communicate something extra to the team, justifying that player's choice to give that particular clue.
 Often there is more than one way of getting something done and at this stage I don't want to say that "there must be one correct way and everything else is clearly a "bad" clue". However, sometimes we could have a situation where a clue is more obviously not good.
 
 Some examples of this might be chop moving / saving a compelety useless card: e.g. giving a 5s chop to get a Y1 chop moved after the Y3 has already been played, or giving a blue save clue that could be talking about a B4, but that in fact is talking exclusively about a useless B1, even when the B2 has already been played. (I will probably define more things like this later, but for now we can roll with just these two and see how well things work out).
 
+# Terrible Clues
+Intuition: If a player gives a clue that is clearly terrible, it is instead a good clue that starts a generalised play baton of high order.
+E.g. if a player gives a really bad 5s chop that *should* chop move a useless 1, then all the other players know that this should in fact start a diminished play baton (probably of order 2).
+You will probably be wondering why I haven't been clear about what order this play baton should be (which cards should be in the track), and the reason for this is that I think that the order of the play baton should depend on how many options the initiator had. E.g. if they had 3 playable cards and still choose to give a terrible clue, this would indecate a 4th or 5th order play baton, because they had a better way to give a 1st, 2nd and 3rd order play baton already (by playing the "wrong" playable card, or by discarding). I need to give a full definiton for this, so here goes:
 
+## Correct baton order
+If a player has multiple good things to do on their turn (e.g. they have more than one playable card), then it is usually possible to rank which one is the best globally. This means that everyone can see if that player has done what was expected (the 0th option), the next best thing (1st option) or whatever else (the nth best option).
+If the player does what is expected then nothing special happens, but if they do the nth best other option, then this should start an nth order play baton. Note that I started counting at 0 here.
+This sounds nice in theory, but to use this idea we will need to know how to choose which card is the best one to play in a given situation, and how other good options (like giving in order finesses) should compare.
+
+# Importance of Good Actions
+This is a formal list of the good things that you could do on your turn, in order from most important (lowest number) to least important (highest number).
+There might be other things to consider doing on your turn (like giving save clues, chop moves, lower efficiency clues), so don't forget to consider those things as well.
+Importance | Action | Reasoning
+-------------------------------
+0| Killing a play baton if needed | Not doing so should result in a misplay
+1| Playing an unknown finessed card | You need to know which card it is
+2| Playing an assumed finesse card | You should still check to see that it wasn't a bluff
+3| Playing a known finesse card | Most other players will assume it's not completely known and you don't want them getting the wrong idea
+4| Playing a clued playable card | Playing is necesarry to win
+5| Giving a "terrible" clue | This is good, but will take time to sort out and could get messy
 
 
