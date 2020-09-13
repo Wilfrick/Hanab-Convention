@@ -225,7 +225,7 @@ We agree that Bob is allowed to consider Alice's finesse positon when thinking a
 17. Everyone now knows what's going on.
 
 
-We are now ready to turn this into a format definiton, but first it might be useful to have a word for the set of cards that Alice is talking about, so let's give a definiton for that first:
+We are now ready to turn this into a formal definiton, but first it might be useful to have a word for the set of cards that Alice is talking about, so let's give a definiton for that first:
 We define a __track__ to be a subset of the cards in each players' hands. A __track__ talks about the specific card in a player's hand, rather than the position in their hand. So if your first card is part of a track, and you discard, now your second card is the card in the track.
 We can now give the full definition for the play baton.
 We define the __Play Baton__ as follows:
@@ -234,6 +234,7 @@ Playing your track card __kills the baton__.
 Doing something really important *that you __had__* to do __drops the baton__. (Things like giving save clues and chop moves)
 Doing almost anything else __passes the baton__.
 When the initiator starts a play baton, the following happens:
+
 1. A new track is created, comprising of the initiator's finesse positon, and then generally everyone else's finesse positon as well (although sometimes it could be everyone else's second finesse positon, or even third)
 2. Each player should count up how many playable cards they can see on the track.
 3. Each player should __pass the baton__ once for each playable card they can see on the track
@@ -257,6 +258,12 @@ If someone doesn't have enough finesse positions (e.g. because they only have 2 
 There are other ways to generalise the play baton by modifying the track that it uses.
 Sometimes you might need to start a play baton with a track that misses out a player. For cases like this, we define the concept of a __Diminished (xth Order) Play Baton__.
 Like the other xth Order Play Batons, the Diminished xth Order Play Baton has a track comprising of the initiator's finesse position card and everyone else's xth finesse position card, except that one of the cards that should be in the track is not included.
+
+Why do I feel the need to define something like this? Well one of the key priciples that we assume is that every player is a perfect logician who doesn't make mistakes. This means that if someone gives a clue that looks bad, assuming it is a bad clue is the incorrect conclusion to reach. Instead, this "bad" clue must communicate something extra to the team, justifying that player's choice to give that particular clue.
+Often there is more than one way of getting something done and at this stage I don't want to say that "there must be one correct way and everything else is clearly a "bad" clue". However, sometimes we could have a situation where a clue is more obviously not good.
+
+Some examples of this might be chop moving / saving a compelety useless card: e.g. giving a 5s chop to get a Y1 chop moved after the Y3 has already been played, or giving a blue save clue that could be talking about a B4, but that in fact is talking exclusively about a useless B1, even when the B2 has already been played. (I will probably define more things like this later, but for now we can roll with just these two and see how well things work out).
+
 
 
 
