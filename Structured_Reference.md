@@ -276,18 +276,17 @@ If the player does what is expected then nothing special happens, but if they do
 This sounds nice in theory, but to use this idea we will need to know how to choose which card is the best one to play in a given situation, and how other good options (like giving in order finesses) should compare.
 
 # Importance of Good Actions
-This is a formal list of the good things that you could do on your turn, in order from most important (lowest number) to least important (highest number).
+This is a formal list of the good things that you could do on your turn, in order from most important (highest number) to least important (lowest number).
 There might be other things to consider doing on your turn (like giving save clues, chop moves, lower efficiency play clues), so don't forget to consider those things as well.
 
 
 Importance | Action | Reasoning
 -----------|--------|----------
-0| Killing a play baton if needed | Not doing so should result in a misplay
-1| Playing an unknown finessed card | You need to know which card it is
-2| Playing an assumed finesse card | You should still check to see that it wasn't a bluff
-3| Playing a known finesse card | Most other players will assume it's not completely known and you don't want them getting the wrong idea
-4| Playing a clued playable card | Playing is necesarry to win
-5| Giving a "terrible" clue | This is good, but will take time to sort out and could get messy
+10| Killing a play baton if needed | Not doing so should result in a misplay
+5| Playing an unknown finessed card | You need to know which card it is
+5| Playing an assumed finesse card | You should still check to see that it wasn't a bluff
+5| Playing a known finesse card | Most other players will assume it's not completely known and you don't want them getting the wrong idea
+Needs to be calculated| Playing a clued playable card | Playing is necesarry to win
 
 For option 4, if you had multiple playable cards how would you know which card is the most important (and therefore the one that you should play first)?
 To answer this question I have another table of reasons to think that a card is more playable, along with a number. The card with the highest totally number is your most important card.
