@@ -296,7 +296,7 @@ Factor to consider | Score
 ---|---
 Cards that are needed for other playable cards are more important | +1 for each known playable that relies on this card being played
 Cards that are needed for other playable cards in other people's hands are even more important | +1 for each known playable that relies on this card being played that is in someone else's hand
-Lower cards should be played first | +(5-rank)
+Lower cards should be played first | +(5-rank) (don't add anything for finessed cards)
 5s should be played for their clues | +1 if we are on 0 clues
 Play from front to back | + (hand size - position in hand) / hand size
 
