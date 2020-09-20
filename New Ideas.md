@@ -4,7 +4,7 @@ It would be nice if we had another method of getting finessable cards played tha
 For the following definition, imagine that play batons don't exist.
 
 # Fast track
-If there are some playable cards in finesse positions, and the initiator has a choice between two good options, then they should do the action that corresponds to the number of playable cards mod 2 (possibly plus 1, I'm not sure yet). Each player can then see if they have a playable card or not in slot one.
+If there are some playable cards in finesse positions, and the initiator has a choice between two good options, then they should do the action that corresponds to the number of playable cards mod 2. Each player can then see if they have a playable card or not in slot one.
 This means that each player can know immediately if their cards are playable - they don't even need to play to show other players that they know this.
 We can extend this further to say that if the initiator plays their x-th card, they are stating that they can see an odd number of finessible cards in finesse positons x. I should add that the initiator should choose to get the back most finessable cards played, as the cards near the front of people's hands are much easier to get played.
 The initiator will never be talking about their own cards, so don't consider that possibility.
