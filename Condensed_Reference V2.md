@@ -103,6 +103,7 @@ Something I've seen in over-the-table play has been the following convention - e
 
 # Medium level plays
 ## Save clues for playable cards
+Sometimes you might have a playable card (e.g. R2) and the next player might be about to discard the next card (e.g. R3). For this reason (among others) we insist that players consider the possibility of saving playable cards on the chop, even if it will take another turn to get all the cards played. This might technically still be considered a play clue, but it feels like a save clue, which is why I've put it here. Also I'll define that this is a save clue for the sake of some technicalities later on.
 
  - Permissive gambling
  - Efficiency 2 first clue
