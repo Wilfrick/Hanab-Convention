@@ -94,12 +94,16 @@ Sometimes someone's chop card is important and you'd like to save it. You may al
 
 
 # A note about other conventions
-Up to this point, most of what I've described is quite similar to the Hyphen-ated convention, so I thought now would be a good time to note the differences with that convention at this point. I'll also note what I've seen some other 
+Up to this point, most of what I've described is quite similar to the Hyphen-ated convention, so I thought now would be a good time to note the differences with that convention at this point. I'll also note what I've seen some other people play, although this is less relevant.
 ## Hyphen-ated (chop focus)
-The key
- - In person varient
+The key difference that the Hyphen-ated convention uses is that they insist on something called "Chop focus". This is where the card that a clue is talking about is a) the chop card, and then b) the frontmost card (if the chop card isn't touched). This can pretty much be swapped out for "play clues are talking about the frontmost card" as and when, so we are sticking with the "simpler" rule for now. I think that chop focus is slightly better than the rule we use, but I think it is mostly arbitrary, so for the time being I'll stick with frontmost playable.
+
+## In person varient
+Something I've seen in over-the-table play has been the following convention - every touched card is playable, unless you receive another clue on those cards, in which case you should stop playing them. There are no save clues nor chop moves, so it's hard to prevent critical cards from being discarded. I'm mentioning this here for some historical reference, but this isn't something I'd recommend if your aim is to win.
+
 # Medium level plays
- - Save clues for playable cards
+## Save clues for playable cards
+
  - Permissive gambling
  - Efficiency 2 first clue
 # Fun stuff prerequisites
