@@ -1,6 +1,6 @@
 # Prerequisites
  - How the game works
-## The point of the convention / motivations
+ - The point of the convention / motivations
 # The basics
  - Front most newly clued card is playable
  - Save clues
@@ -29,6 +29,7 @@ On you turn you have three options:
 1. Play a card. You won't necessarily know what this card is exactly (or at all), but if it fits on one of the piles then it is added to that pile. If it doesn't fit anywhere, it is added to the discard pile and a life is lost for the team.
 2. Discard a card. The card is placed face up in the discard pile and a clue token is gained for the team. You cannot discard if the team already has eight clue tokens.
 3. Give a clue. A clue takes the following form: "Player [X], these are all the cards in your hand that are [Colour]", or "Player Y, these are all the cards in your hand that are [Number]". E.g. "Alice, your first and second cards are yellow (and non of your other cards are yellow)" or "Bob, your fifth card is a 5 (and non of your other cards are 5s)".
+
 The game ends when either all of a given card end up in the discard pile - e.g. both R4 are in the discard pile, as then the red pile can never be completed (this isn't always the case), when the third life is lost, or when the last card is drawn from the deck and every player has had one more turn.
 The team wins if they complete every pile before the game ends.
 When a player plays or discards a card, they draw a new card and add it to the front of their hand (generally the left).
