@@ -13,7 +13,7 @@
  - Fill in moves (Prompt/Finesse/Bluff)
  - Chop moves (5, known trash)
 # A note about other conventions
- - Hypenated
+ - Hyphen-ated (chop focus)
  - In person varient
 # Medium level plays
  - Save clues for playable cards
@@ -103,7 +103,7 @@ It is possible to lie to someone and get them to
 
  - Chop moves (5, known trash)
 # A note about other conventions
- - Hypenated (chop focus)
+ - Hyphen-ated (chop focus)
  - In person varient
 # Medium level plays
  - Save clues for playable cards
@@ -118,7 +118,6 @@ It is possible to lie to someone and get them to
  - Fast track for chop moves with multiple discardable cards
  - Conditional chop focus
  - What on early an option 2+ play means
-
 
 
 
