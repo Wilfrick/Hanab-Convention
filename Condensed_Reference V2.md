@@ -117,7 +117,7 @@ If you are in a position to gamble, then generally doing so is a good idea, as t
 ## Efficiency 2 first clue
 During the first round of cluing (right at the start of the game) it is quite likely that there will be a "good" clue to give (something better than just play one card). We say that we always try to give such a clue as the first clue, and if the first player can't, then they should give a save clue (e.g. a 2 or 5 save). The second player can do whatever they want to, but this is some more structure that allows for logical deduction. (e.g.) if the first player clues a single 1, even though there is a 5 that they could save, this still must mean that someone else will play - presumably as a finesse).~~I think I'll rewrite some of this, as it probably needs some more thinking.~~
 # Fun stuff prerequisites
-The fun stuff I'm talking about looks kinda like a priority finesse (from Hyphen-ated). The idea is that we can globally rank how good each action for a player is (e.g. which playable card to play, how importing giving certain clues is, and so on) and based on which action they take (best, second best, third best, etc) we can extract additional information.
+The fun stuff I'm talking about looks kinda like a priority finesse (from Hyphen-ated). The idea is that we can globally rank how good each action for a player is (e.g. which playable card to play, how important giving certain clues is, and so on) and based on which action they take (best, second best, third best, etc) we can extract additional information.
 
 To do this, we need a way to rank our choices concreetly, so to start with we define the playability of playable cards.
 ## Playability of playable cards
@@ -134,6 +134,13 @@ Cards that are needed for other playable cards are more important | +1 for each 
 Cards that are needed for other playable cards in other people's hands are even more important | +1 for each known playable that relies on this card being played that is in someone else's hand
 5s should be played for their clues | +2 if we are on 0 clues
 Play from front to back | + (hand size - position in hand) / hand size
+
+We then want to consider the values of clues, and of discarding.
+
+We give discarding value 0, as this is not a bad option, but most other options should be better.
+
+
+
 # Fun stuff
  - Fast track
  
