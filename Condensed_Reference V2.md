@@ -10,7 +10,7 @@
 	- Good touch
 	- Perfect players
  - The early game
- - Fill in moves (Finesse/Prompt/Bluff)
+ - Fill in moves (Prompt/Finesse/Bluff)
  - Chop moves (5, known trash)
 # A note about other conventions
  - Hypenated
@@ -75,13 +75,32 @@ We also agree that we generally want to keep the early game going, so people *sh
 
 You should also remember to play the game! You can still clue playable cards and get them played (mostly) and this is still a good thing to do.
 
+## Fill in moves (Prompt/Finesse/Bluff)
+Because play clues sometimes touch more than one card, often players will end up with a few cards in their hand that have a single clue on them that might not be (and in fact probably are not) playable. Because of good touch principle, that player knows that those touched cards  will be useful in the future, but they don't know what they are exactly. At some point, (usually after some more cards have been played) we would like to tell these players to play their cards, but it seems like a bit of a waste to use another full clue to fill in this card, given that they already know what "half" of it is and probably aren't far off deducing the card's true identity. It is for this reason that we define a **Prompt**, which is a specific instance of a *fill in* move.
+
+A **Fill in** move is where a play clue is given to a card that clearly isn't yet playable. In this case, the group have two options - either assume that this was a mistake, or not. Now we assume that everyone is a perfect player that doesn't make mistakes, so how should the group interpret such an odd clue? The group interpretation is that this card *is* playable, it just needs some other prerequisite cards to be filled in first. Who should play these cards? Generally these cards come from the group's already clued cards (from the front, in which case this is called a **prompt**), but if there are no matching clued cards, then we define the *front most unclued card* in each player's hand as their **first finesse position*, and these are the cards that should be considered for fill in moves (and playing them would be called a **finesse**). It is worth noting that it is possible that multiple people could have the same card, e.g. one player has a R2 clued, and someone else has the other R2 in slot 1 (first finesse position). In cases like these, the last player that won't mess up is the player that will end up playing. It is also worth noting that you can't usually delay playing fill in cards, as not doing so will end up with another player misplaying a perfectly useable card.
+
+It is possible to lie to someone and get them to 
 
 
 
 
 
 
- - Fill in moves (Finesse/Prompt/Bluff)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  - Chop moves (5, known trash)
 # A note about other conventions
  - Hypenated (chop focus)
