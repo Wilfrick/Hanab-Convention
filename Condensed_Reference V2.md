@@ -12,6 +12,13 @@
  - The early game
  - Fill in moves (Finesse/Prompt/Bluff)
  - Chop moves (5, known trash)
+# A note about other conventions
+ - Hypenated
+ - In person varient
+# Medium level plays
+ - Save clues for playable cards
+ - Permissive gambling
+ - Efficiency 2 first clue
 # Fun stuff prerequisites
  - Playability of playable cards
 # Fun stuff
@@ -20,6 +27,7 @@
 # Future ideas
  - Fast track for chop moves with multiple discardable cards
  - Conditional chop focus
+ - What on early an option 2+ play means
  
 ------
 
@@ -52,11 +60,36 @@ We agree that the two most important cards in the game are the 5s (because there
 # More advanced basics
 ## Principles
 Now that you have a basic understanding of what some clues mean, it's worth pointing out some of the guiding principles that underlie this convention.
-	- Good touch
-	- Perfect players
- - The early game
+### Perfect players principle
+This is the idea that everyone on your team is a perfect player that always does the right thing. This is generally not true, but believing it allows for a whole host of possibilities, so we choose to assume that this is the case. This will be the basis for justifying the meaning of "bad moves" - e.g. Alice probably should have played, but she didn't. Did she just make a mistke? Well no, because Alice is a perfect player, she must be trying to say something instead.
+### Good touch principle
+This is a useful priniciple from Hyphen-ated. It states that we only ever touch cards that are useful (that will get played at some point). Sometimes this will be broken if you have to give a save clue, but generally we work hard as a team to make sure that this is true, and then there is lots of potential for logical deduction because of this.
+### Fix clues
+This isn't so much a principle as a mindset, but here goes anyway. Sometimes (generally as the result of an unfortunate save clue) one of these principles may have to be violated. In that case it may be tempting to use a clue to try to "fix" the situation. Sometimes this can be done with surgical precision, giving clues that have obvious and unambiguous interpretations, but often giving more clues can be confusing. We therefore warn each other of using clues to "fix" things that aren't too bad. E.g. if someone will misplay a single card and then will be able to figure out what is wrong then don't bother wasting a clue on stopping them, just let it happen. In general, if you can "fix" a "mistake" with just one clue, perhaps consider it, but in general the mentality is to avoid making such mistakes in the first place. It's also worth noting that something that looks like a mistake to you might be the correct thing to do for the team e.g. (you are worried that someone will discard a critical card, but the team has forced them to clue something in your hand, so when it gets to their turn it's all good).
+
+## The early game
+We define the early game as before the first deliberate discard (the first discard for the sole purpose of generating a clue). During this time, we use a slightly different rule for 2 and 5 saves.
+ - Any number 2 or 5 clue must be a save clue, regardless of position.
+ 
+We also agree that we generally want to keep the early game going, so people *should* save 5s and 2s even if they aren't in danger of being discarded yet. It's worth noting that in general it's more important to save the cards nearer the back of someone's hand, but of course remember that if you can only save a 2 or a 5 then you must save the 5, as there is only one copy of this card.
+
+You should also remember to play the game! You can still clue playable cards and get them played (mostly) and this is still a good thing to do.
+
+
+
+
+
+
+
  - Fill in moves (Finesse/Prompt/Bluff)
  - Chop moves (5, known trash)
+# A note about other conventions
+ - Hypenated
+ - In person varient
+# Medium level plays
+ - Save clues for playable cards
+ - Permissive gambling
+ - Efficiency 2 first clue
 # Fun stuff prerequisites
  - Playability of playable cards
 # Fun stuff
@@ -65,7 +98,7 @@ Now that you have a basic understanding of what some clues mean, it's worth poin
 # Future ideas
  - Fast track for chop moves with multiple discardable cards
  - Conditional chop focus
-
+ - What on early an option 2+ play means
 
 
 
