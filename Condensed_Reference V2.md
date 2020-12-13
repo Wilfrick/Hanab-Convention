@@ -80,28 +80,16 @@ Because play clues sometimes touch more than one card, often players will end up
 
 A **Fill in** move is where a play clue is given to a card that clearly isn't yet playable. In this case, the group have two options - either assume that this was a mistake, or not. Now we assume that everyone is a perfect player that doesn't make mistakes, so how should the group interpret such an odd clue? The group interpretation is that this card *is* playable, it just needs some other prerequisite cards to be filled in first. Who should play these cards? Generally these cards come from the group's already clued cards (from the front, in which case this is called a **prompt**), but if there are no matching clued cards, then we define the *front most unclued card* in each player's hand as their **first finesse position*, and these are the cards that should be considered for fill in moves (and playing them would be called a **finesse**). It is worth noting that it is possible that multiple people could have the same card, e.g. one player has a R2 clued, and someone else has the other R2 in slot 1 (first finesse position). In cases like these, the last player that won't mess up is the player that will end up playing. It is also worth noting that you can't usually delay playing fill in cards, as not doing so will end up with another player misplaying a perfectly useable card.
 
-It is possible to lie to someone and get them to 
+It is possible to lie to someone and get them to play a card in the belief that they are being finessed, but this is generally worse for the team than playing a true finesse (because it is a lot slower). This is called a **bluff**, and sometimes is worth doing.
 
 
+## Chop moves
+Sometimes someone's chop card is important and you'd like to save it. You may also be in some situation where you can't give a good save clue, or where there is more than one card that you want to save at the same time. For situations like these (and for more options in general), we define the *chop move*. These are actions that result in telling a player that their chop card (or several chop cards) are all important and should be saved for the future. We have two types of chop move (for now), both of which have some non arbitrary motivation:
 
+### 5 save chop move
+**If you are clued a number 5 clue for a five that is one away from your chop card**, what are you supposed to think? Presumably that the 5 is playable, but that seemes unlikely given that the 5 wasn't clued earlier (it's still possible, but bare with it). Therefore, this is probably still a 5 save. Why save the 5 now? Well if the team waited one more turn then you would have discarded your chop card, so apparently they don't want you to do this. Therefore, **your chop card is important and not to be discarded (or even really played (yet))**. You also learn that you have a 5, which is pretty good as this would need to happen anyway at some point. Now sometimes this isn't ideal, because the 5 might actually be playable and the team doesn't want to chop move a useless card. In this case the team can probably just wait for you to discard the useless card, and then play continues as normal, so this isn't a big deal.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- - Chop moves (5, known trash)
+(5, known trash)
 # A note about other conventions
  - Hyphen-ated (chop focus)
  - In person varient
