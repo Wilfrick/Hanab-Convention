@@ -27,7 +27,7 @@
 # Future ideas
  - Fast track for chop moves with multiple discardable cards
  - Conditional chop focus
- - What on early an option 2+ play means
+ - What on earth an option 2+ play means
  
 ------
 
@@ -89,9 +89,14 @@ Sometimes someone's chop card is important and you'd like to save it. You may al
 ### 5 save chop move
 **If you are clued a number 5 clue for a five that is one away from your chop card**, what are you supposed to think? Presumably that the 5 is playable, but that seemes unlikely given that the 5 wasn't clued earlier (it's still possible, but bare with it). Therefore, this is probably still a 5 save. Why save the 5 now? Well if the team waited one more turn then you would have discarded your chop card, so apparently they don't want you to do this. Therefore, **your chop card is important and not to be discarded (or even really played (yet))**. You also learn that you have a 5, which is pretty good as this would need to happen anyway at some point. Now sometimes this isn't ideal, because the 5 might actually be playable and the team doesn't want to chop move a useless card. In this case the team can probably just wait for you to discard the useless card, and then play continues as normal, so this isn't a big deal.
 
-(5, known trash)
+### Known trash chop move
+**If you are given a clue that highlights only useless ("trash") cards, then you interpret that all the cards behind the backmost trash card are chop moved** (so are important, but not very playable). If there are no cards behind the backmost trash card (because this clue highlights the chop card), then this is a chop move on the first card that has not been clued, although this is an odd thing to do. ~~This may change~~
+
+
 # A note about other conventions
- - Hyphen-ated (chop focus)
+Up to this point, most of what I've described is quite similar to the Hyphen-ated convention, so I thought now would be a good time to note the differences with that convention at this point. I'll also note what I've seen some other 
+## Hyphen-ated (chop focus)
+The key
  - In person varient
 # Medium level plays
  - Save clues for playable cards
@@ -105,7 +110,7 @@ Sometimes someone's chop card is important and you'd like to save it. You may al
 # Future ideas
  - Fast track for chop moves with multiple discardable cards
  - Conditional chop focus
- - What on early an option 2+ play means
+ - What on earth an option 2+ play means
 
 
 
