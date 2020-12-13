@@ -18,6 +18,7 @@
 # Medium level plays
  - Save clues for playable cards
  - Permissive gambling
+	- Motivation
  - Efficiency 2 first clue
 # Fun stuff prerequisites
  - Playability of playable cards
@@ -55,7 +56,7 @@ Generally speaking, when you receive a clue it will highlight some cards that ha
 We agree that every player will try to discard in a predictable way, as this greatly simplifies the game. We agree that every player will always choose to discard their back (generally rightmost) card if they want to discard something. This means that the team knows which card is going to be discarded next and can act accordingly. We call this backmost card the **chop card**, as it is "on the chopping block" and will be killed on that player's next discard. It often happens that a player will end up with a *critical* card (a card with only one copy left in the game, a "danger card") on their chop. If this happens, it is very important for the team to tell them that they have such a card, *and* that they must not play it. To make sure that this is always possible, we define the Save clue:
 If you receive a clue that touches your chop card, and this might be talking about a critical card (you can determine if this is the case by looking at the discard pile, among other things), then you must assume that this is a **save clue**. You are supposed to conclude that one of these highlighted cards is critical and must not be played or discarded. If only card is touched, then you can assume it is one of the possible critical cards. If more than one card is touched, then the team is telling you that at least one of these cards is critical, but they are saying nothing about the other cards. They could be critical, they could be useless, they could be useful in the future. You are supposed to hang on to all of these cards and just save them in your hand for later. 
 ### 2 and 5 saves
-We agree that the two most important cards in the game are the 5s (because there is only one copy of each 5), and 2s (because there are only two of them and they are required to get anywhere in the game). This means it would be nice if we had some extra ways to save these cards, as it is really important not to waste them. For this reason, we say that a number 2 or 5 clue on the chop is always a save clue (unless it can't be for some reason). You are also expected to save a 5 in this way, and usually save a 2 in this way (although sometimes with 2s it isn't possible).
+We agree that the two most important cards in the game are the 5s (because there is only one copy of each 5), and 2s (because there are only two of them and they are required to get anywhere in the game). This means it would be nice if we had some extra ways to save these cards, as it is really important not to waste them. For this reason, we say that a number 2 or 5 clue on the chop is always a save clue (unless it can't be for some reason). You are also expected to save a 5 in this way, and usually save a 2 in this way (although sometimes with 2s it isn't possible). Note that this reasoning stops working if we can see both copies of a 2 (as then it doesn't matter which one we play and it's less important to save one of them), so in this case you don't have to save such a 2. Overall this means **we end up saving 5s and *single copies* of 2s in the early game**. 
 
 # More advanced basics
 ## Principles
@@ -105,8 +106,16 @@ Something I've seen in over-the-table play has been the following convention - e
 ## Save clues for playable cards
 Sometimes you might have a playable card (e.g. R2) and the next player might be about to discard the next card (e.g. R3). For this reason (among others) we insist that players consider the possibility of saving playable cards on the chop, even if it will take another turn to get all the cards played. This might technically still be considered a play clue, but it feels like a save clue, which is why I've put it here. Also I'll define that this is a save clue for the sake of some technicalities later on.
 
- - Permissive gambling
- - Efficiency 2 first clue
+## Permissive gambling
+### Motivation
+Because of our early game rules about 2 saves, we often find it hard to play all the 2s fast enough at the beginning of the game (because it's hard to tell someone to play their cards - often a clue will just be a save clue). For this reason, we want to introduces some slack into when you are allowed to play, giving more opportunities to play. We define the concept of **permissive gambling** as playing a card that could be playable but that you don't know is playable, with the conditions that:
+ - You know you won't lose the game by playing if in fact you don't have a playable card (e.g. you can't gamble a card if we have already lost two lives or if the card you are playing could be a 5)
+ - You must be able to see a copy of all the potential cards that you might misplay. (E.g. if you have a green card that is either a 3 or a 4 and the G2 is down, then you must be able to see the other G4 before you are allowed to play your green card).
+ 
+If you are in a position to gamble, then generally doing so is a good idea, as this helps to speed up the game. Even if your card misplays, the conditions on when you are allowed to gamble give the other players useful information.
+
+## Efficiency 2 first clue
+During the first round of cluing (right at the start of the game) it is quite likely that there will be a "good" clue to give (something better than just play one card). We say that we always try to give such a clue as the first clue, and if the first player can't, then they should give a save clue (e.g. a 2 or 5 save). The second player can do whatever they want to, but this is some more structure that allows for logical deduction. (e.g.) if the first player clues a single 1, even though there is a 5 that they could save, this still must mean that someone else will play - presumably as a finesse).~~I think I'll rewrite some of this, as it probably needs some more thinking.~~
 # Fun stuff prerequisites
  - Playability of playable cards
 # Fun stuff
