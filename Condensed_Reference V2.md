@@ -84,7 +84,7 @@ You should also remember to play the game! You can still clue playable cards and
  - Fill in moves (Finesse/Prompt/Bluff)
  - Chop moves (5, known trash)
 # A note about other conventions
- - Hypenated
+ - Hypenated (chop focus)
  - In person varient
 # Medium level plays
  - Save clues for playable cards
