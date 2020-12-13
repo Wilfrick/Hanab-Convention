@@ -4,7 +4,11 @@
 # The basics
  - Front most newly clued card is playable
  - Save clues
+	- 2/5 saves
 # More advanced basics
+ - Principles
+	- Good touch
+	- Perfect players
  - The early game
  - Fill in moves (Finesse/Prompt/Bluff)
  - Chop moves (5, known trash)
@@ -41,18 +45,14 @@ Generally speaking, when you receive a clue it will highlight some cards that ha
 ## Save clue
 We agree that every player will try to discard in a predictable way, as this greatly simplifies the game. We agree that every player will always choose to discard their back (generally rightmost) card if they want to discard something. This means that the team knows which card is going to be discarded next and can act accordingly. We call this backmost card the **chop card**, as it is "on the chopping block" and will be killed on that player's next discard. It often happens that a player will end up with a *critical* card (a card with only one copy left in the game, a "danger card") on their chop. If this happens, it is very important for the team to tell them that they have such a card, *and* that they must not play it. To make sure that this is always possible, we define the Save clue:
 If you receive a clue that touches your chop card, and this might be talking about a critical card (you can determine if this is the case by looking at the discard pile, among other things), then you must assume that this is a **save clue**. You are supposed to conclude that one of these highlighted cards is critical and must not be played or discarded. If only card is touched, then you can assume it is one of the possible critical cards. If more than one card is touched, then the team is telling you that at least one of these cards is critical, but they are saying nothing about the other cards. They could be critical, they could be useless, they could be useful in the future. You are supposed to hang on to all of these cards and just save them in your hand for later. 
+### 2 and 5 saves
+We agree that the two most important cards in the game are the 5s (because there is only one copy of each 5), and 2s (because there are only two of them and they are required to get anywhere in the game). This means it would be nice if we had some extra ways to save these cards, as it is really important not to waste them. For this reason, we say that a number 2 or 5 clue on the chop is always a save clue (unless it can't be for some reason). You are also expected to save a 5 in this way, and usually save a 2 in this way (although sometimes with 2s it isn't possible).
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 # More advanced basics
+## Principles
+Now that you have a basic understanding of what some clues mean, it's worth pointing out some of the guiding principles that underlie this convention.
+	- Good touch
+	- Perfect players
  - The early game
  - Fill in moves (Finesse/Prompt/Bluff)
  - Chop moves (5, known trash)
