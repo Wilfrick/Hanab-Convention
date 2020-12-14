@@ -85,7 +85,7 @@ A **Fill in** move is where a play clue is given to a card that clearly isn't ye
 It is possible to lie to someone and get them to play a card in the belief that they are being finessed, but this is generally worse for the team than playing a true finesse (because it is a lot slower). This is called a **bluff**, and sometimes is worth doing.
 
 ### Reverse Fill in moves
-It's worth noting that the ordering of these fill in moves 
+It's worth noting that it is possible for these fill in moves to happen "out of order". E.g. R2 is clued, but the person that fills in with the R1 comes after the player with the R2. This is fine, but you must be aware that this could be happening, e.g. the R2 player needs to remember to wait to let the R1 go down.
 
 
 ## Chop moves
@@ -141,7 +141,11 @@ Play from front to back | + (hand size - position in hand) / hand size
 
 We then want to consider the values of clues, and of discarding.
 
-We give discarding value 0, as this is not a bad option, but most other options should be better.
+We give discarding a value of -1, as it wastes a turn (no one learns anything directly from this). However, sometimes this is the best thing to do.
+
+We assign to each clue the value of the highest value card that it will generate, minus some penalty (-1 if you have nothing to play, -3 if you had at least one playable card)? I need to see if this works in practice, but hopefully it does.
+
+These rules then let us rank most of the positive options that a player has (we haven't yet considered save clues / chop moves).
 
 
 
