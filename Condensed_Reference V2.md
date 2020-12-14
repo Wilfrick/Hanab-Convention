@@ -141,7 +141,7 @@ Play from front to back | + (hand size - position in hand) / hand size
 
 We then want to consider the values of clues, and of discarding.
 
-We give discarding a value of -1, as it wastes a turn (no one learns anything directly from this). However, sometimes this is the best thing to do.
+We give discarding a value of 0, as it wastes a turn (no one learns anything directly from this) but you gain a clue. However, sometimes this is the best thing to do.
 
 We assign to each clue the value of the highest value card that it will generate, minus some penalty (-1 if you have nothing to play, -3 if you had at least one playable card)? I need to see if this works in practice, but hopefully it does.
 
