@@ -21,6 +21,7 @@
  - Permissive gambling
 	- Motivation
  - Efficiency 2 first clue
+ - Tempo clue chop move
 # Fun stuff prerequisites
  - Playability of playable cards
 # Fun stuff
@@ -120,6 +121,9 @@ If you are in a position to gamble, then generally doing so is a good idea, as t
 
 ## Efficiency 2 first clue
 During the first round of cluing (right at the start of the game) it is quite likely that there will be a "good" clue to give (something better than just play one card). We say that we always try to give such a clue as the first clue, and if the first player can't, then they should give a save clue (e.g. a 2 or 5 save). The second player can do whatever they want to, but this is some more structure that allows for logical deduction. (e.g.) if the first player clues a single 1, even though there is a 5 that they could save, this still must mean that someone else will play - presumably as a finesse).~~I think I'll rewrite some of this, as it probably needs some more thinking.~~
+
+## Tempo clue chop move
+If you receive a clue with the sole purpose of getting you to play an already touched card, then this would be a bit of a waste of a clue, so we assign more meaning to it. We say that the player that receives this clue has also been chop moved, as the team has given them something to do rather than discard.
 # Fun stuff prerequisites
 The fun stuff I'm talking about looks kinda like a priority finesse (from Hyphen-ated). The idea is that we can globally rank how good each action for a player is (e.g. which playable card to play, how important giving certain clues is, and so on) and based on which action they take (best, second best, third best, etc) we can extract additional information.
 
