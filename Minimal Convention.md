@@ -12,7 +12,7 @@ This is a list of actions to be taken, in order of importance. Once an action is
 1. Play a card that is marked as playable
 2. Clue the lowest rank unclued playable card possible - in this case the front most touched card is the card selected, there is no notion of previously clued cards
 3. Discard chop card.
-4. Give a random clue to previous player
+4. Clue the rank of the previous player's last card
 ---
 
 This is a list of rules for how to mark cards with globally consistent flags - things like `being playable' or `being discardable' or `having been chop moved'. In this case we have very few such flags.
@@ -37,3 +37,16 @@ This is a list of rules for modifying the flags of all cards in play in the game
 
 ## Expectations
 I expect that this convention should be able to play a few cards, but will undoubtably discard important cards and will surely never win. In fact, due to random usless cluing I think that most games will be lost through misplays rather than discards.
+
+
+## Results
+After implementing a system to play hanabi for me in Python 3 and then implementing the above convention and testing it in 10000 trial games I have the following score distribution:
+[0, 10, 18, 27, 29, 36, 38, 27, 27, 38, 18, 26, 39, 39, 30, 52, 116, 333, 785, 1455, 2167, 2537, 2008, 145, 0, 0]
+This has an average of 19.7 with 90% of the games scoring between 16 and 22. This did much better than I thought, but it still can perform badly. I'm slightly saddened to see that the highest score was only 23, but at least this shows that there is merit in further developement, as it is certainly possible to win this variation of Hanabi.
+
+### Next Steps
+I think I'll add some more rules manually (like save clues and maybe good touch principle) to see how much of a difference these simple rules make. I'll probably then need to step back and rethink a bit about trying to keep different rules independent of one another, as ideally I'd like to be able to pick and choose ideas freely to craft an ideal convention.
+
+
+
+
