@@ -10,10 +10,9 @@ Although this convention should be simple, it should be detailed enough that it 
 This is a list of actions to be taken, in order of importance. Once an action is selected no further actions are considered.
 
 1. Play a card that is marked as playable
-2. Clue the lowest rank playable card possible - in this case the front most touched card is the card selected, there is no notion of previously clued cards
+2. Clue the lowest rank unclued playable card possible - in this case the front most touched card is the card selected, there is no notion of previously clued cards
 3. Discard chop card.
-4. If somehow we are at 8 clues then try to clue an unplayable card (e.g. 1 if all 1s have been played, or R if all Reds have been played)
-5. Give a random clue
+4. Give a random clue to previous player
 ---
 
 This is a list of rules for how to mark cards with globally consistent flags - things like `being playable' or `being discardable' or `having been chop moved'. In this case we have very few such flags.
@@ -31,5 +30,9 @@ IP: <Immediately Playable> This is for a card that fits exactly somewhere on the
 This is a list of rules for modifying the flags of all cards in play in the game. These rules are again applied in order 
 
 #### Flag Update Rules
-1. if min{x:card[0][x] = T} nonempty => card[0][x] += IP
-2. forall H forall I card[H][I] -= T
+1. if {n:card[0][n] = T and card[0][n] != IP forall n in I} nonempty => card[0][min{n:card[0][n] = T and card[0][n] != IP forall n in I}] += IP
+2. forall h in H forall n in I, card[h][n] -= T
+
+
+## Expectations
+I expect that this convention should be able to play a few cards, but will undoubtably discard important cards and will surely never win. In fact, due to random usless cluing I think that most games will be lost through misplays rather than discards.
