@@ -83,7 +83,7 @@ Finally, we need to update the flag update rules:
 
 ## Flag Update Rules
 1. forall h forall n if none_n{card[h][n] == CH} => card[h][max{n:card[h][n] != IP && != CM}] + CH, break n; ("This hand has no chop card, so try to add one as far back as possible.")
-2. forall h forall n if card[h][n] == T && == CH and could be critical => card[h][n] + CM, if n-1 >= 0 => card[h][n-1] + CH, break n; forall h forall n card[h][n] - T; ("This could be a save clue, so it is. This is a save clue and nothing else.")
+2. forall h forall n if card[h][n] == T && == CH and could be critical => card[h][n] + CM, card[h][n] - CH, if n-1 >= 0 => card[h][n-1] + CH, break n; forall h forall n card[h][n] - T; ("This could be a save clue, so it is. This is a save clue and nothing else.")
 3. forall h forall n if card[h][n] == T && != IP => card[h][N := min{n:card[h][n] = T && != IP}] + IP, card[h][N] -= CH, if N-1 >= 0 => card[h][N-1] + CH, break n; forall h forall n card[h][n] - T; ("Frontmost newly clued cards are immediately playable and are no longer chop cards if they were before. This is a play clue and nothing else.")
 
 #### Flag Update Rules Appendix
