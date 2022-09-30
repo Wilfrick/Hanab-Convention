@@ -6,7 +6,7 @@ Although this convention should be simple, it should be detailed enough that it 
 
  ---
  
-### Convention
+# Convention
 This is a list of actions to be taken, in order of importance. Once an action is selected no further actions are considered.
 
 1. Play a card that is marked as playable
@@ -17,8 +17,8 @@ This is a list of actions to be taken, in order of importance. Once an action is
 
 This is a list of rules for how to mark cards with globally consistent flags - things like `being playable' or `being discardable' or `having been chop moved'. In this case we have very few such flags.
 
-#### System Flags
-V: <Value> This is the true identity of the card. This can be seen by everyone eccept the current player, is a read only attribute and is the only non global information that the convention can consider using. It
+### System Flags
+V: `<Value>` This is the true identity of the card. This can be seen by everyone eccept the current player, is a read only attribute and is the only non global information that the convention can consider using. It
 T: <Touched> This is for a card that has been touched by a clue. It carries extra information in the form of which colour / rank it is, but we ignore this here.
 I: <Index> This is the index of the card in a given person's hand. The front most card is card 0 and the back most card is card 3 or 4. N.B. I = -1 is also the index of the back most card.
 H: <Hand> This is the offset of the hand from the current player. So a card with H=0 is a card in the current player's hand, whereas H=-1 is a card in the previous player's hand and H=1 is a card in the next player's hand.
