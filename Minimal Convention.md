@@ -20,6 +20,8 @@ We will need a list of rules for how to mark cards with globally consistent flag
 ## System Flags
 - V: (Value) This is the true identity of the card. This can be seen by everyone eccept the current player, is a read only attribute and is the only non global information that the convention can consider using. It
 - T: (Touched) This is for a card that has been touched by a clue. It carries extra information in the form of which colour / rank it is, but we ignore this here.
+
+(Consider removing the following, as they aren't used as flags)
 - I: (Index) This is the index of the card in a given person's hand. The front most card is card 0 and the back most card is card 3 or 4. N.B. I = -1 is also the index of the back most card.
 - H: (Hand) This is the offset of the hand from the current player. So a card with H=0 is a card in the current player's hand, whereas H=-1 is a card in the previous player's hand and H=1 is a card in the next player's hand.
 
@@ -51,35 +53,43 @@ The next step I would like to take is to add save clues to this convention. Curr
 I think I'll impement them as follows:
 
 ## Save clues explained
-We identify critical cards as any card with rank less than or equal to 4 (we will deal with 5s separately) with one copy discarded that is not already saved or marked as immediately playable (i.e. cards where discarding them definitely prevents a win). A save clue is a clue that touches the card about to be discarded (the chop card) where that chop card could be critical. The chop card is then marked as saved (CM for historical reasons) and is not discarded. When this card is later needed it will hopefully be clued with a play clue and played. N.B.: To save 5s the clue must be a 5 clue, but otherwise this is treated the same as the other save clues (in particular this still saves only one card).
-To make this possible we introduce one new custom flag, CM:
+We identify critical cards as any card with rank less than or equal to 4 (we will deal with 5s momentarily) with one copy discarded that is not already saved or marked as immediately playable (i.e. cards where discarding them definitely prevents a win). A save clue is a clue that touches the card about to be discarded (the chop card) where that chop card could be critical. The chop card is then marked as saved (CM for historical reasons) and is not discarded. When this card is later needed it will hopefully be clued with a play clue and played. N.B.: To save 5s the clue must be a 5 clue, but otherwise this is treated the same as the other save clues (in particular this still saves only one card).
 
-- CM: <Chop Moved> This card should not be discarded but is otherwise a normal card. It should be playable at some point.
+To make all this possible we introduce two new custom flags, C and CM:
+
+- CH: (Chop) This card is the next card to be discarded in a given player's hand. N.B.: this defaults to a player's backmost card and advanced forward when cards are marked CM, but it is possible that a player has no chop card (e.g. if their entire hand is either saved or immediately playable).
+- CM: (Chop Moved) This card should not be discarded but is otherwise a normal card. It should be playable at some point.
 
 This means we now have the following custom flags:
 
 ## Custom Flags
 - IP: (Immediately Playable) This is for a card that fits exactly somewhere on the stacks right now. It does not promise which rank or colour, although that may be deducible.
-- CM: <Chop Moved> This card should not be discarded but is otherwise a normal card. It should be playable at some point.
+- CH: (Chop) This card is the next card to be discarded in a given player's hand.
+- CM: (Chop Moved) This card should not be discarded but is otherwise a normal card. It should be playable at some point.
 
 We also introduce some more logic for the convention:
 
 ## Convention
 
-1. If the next player has no playable card and has a critical card on their chop, give a save clue
-2. Play a card that is marked as playable
-3. Give a save clue (starting from the next player and working round)
-4. Give a play clue (starting from the first card of the next player, working through their cards, then repeating with the next player and so on). The front most touched card is the card selected, there is no notion of previously clued cards
-5. Discard chop card.
-6. Clue the rank of the previous player's last card
+1. If the next player has no playable card and has a critical card on their chop, give a save clue.
+2. Play a card that is marked as playable.
+3. Give a save clue (starting from the next player and working round).
+4. Give a play clue that can't possibly be a save clue (starting from the first card of the next player, working through their cards, then repeating with the next player and so on). The front most touched card is the card selected, there is no notion of previously clued cards
+5. Discard chop card. N.B. not possible if you have no chop card.
+6. Clue the rank of the previous player's last card.
+7. Play last card (Hopefully the oldest saved card).
 
 Finally, we need to update the flag update rules:
 
 ## Flag Update Rules
+1. forall h forall n if none_n{card[h][n] == CH} => card[h][max{n:card[h][n] != IP && != CM}] + CH, break n; ("This hand has no chop card, so try to add one as far back as possible.")
+2. forall h forall n if card[h][n] == T && == CH and could be critical => card[h][n] + CM, if n-1 >= 0 => card[h][n-1] + CH, break n; forall h forall n card[h][n] - T; ("This could be a save clue, so it is. This is a save clue and nothing else.")
+3. forall h forall n if card[h][n] == T && != IP => card[h][N := min{n:card[h][n] = T && != IP}] + IP, card[h][N] -= CH, if N-1 >= 0 => card[h][N-1] + CH, break n; forall h forall n card[h][n] - T; ("Frontmost newly clued cards are immediately playable and are no longer chop cards if they were before. This is a play clue and nothing else.")
 
-0. if any{card[0][-1] = T and card[0][-1] could be critical} => card[0][-1] + CM() and Forall h in H forall n in I, card[h][n] -= T.
-1. if {n:card[0][n] = T and card[0][n] != IP forall n in I} nonempty => card[0][min{n:card[0][n] = T and card[0][n] != IP forall n in I}] += IP
-2. forall h in H forall n in I, card[h][n] -= T
+#### Flag Update Rules Appendix
+Lowercase letters are used for indicies, (upper case letters are either for flag names or for computed quantites): h is used for the hand index (which player we are considering), n is used for the card index (which card we are considering in that player's hand), foralls turn into for loops with corresponding breaks. A ";" implies that that all previous for loops have finished. If statements execute everything after the "=>" when true. Card + Flag meas adding the given flag to the given card and Card - Flag means removing the given flag from the card if it exists, otherwise doing nothing. == and != check if a given card has (or doesn't have) a given flag.
+
+The explanations after each rule have one sentence per ";".
 
 ### Expectations
 These changes might result in a few more low scoring games due to not being able to give play clues, but I think the current reason that some games get particularly bad scores is because there aren't any playable cards at the beginning and random clues are given which result in lives lost. Having another way to use up clues should help to prevent this, so I actually think the number of low score games should stay mostly the same or even decrease. I hope that we should be able to increase the maximum score from 23, as it should be possible to hold onto most 5s and 4s throughout the middle game. By some rough calculations the team usually has at least 40 clues to work with over the course of a game (50+8-[10-16]) = [42-48] and so assuming that all cards take either 1 or 2 clues to get played (either they get played directly or they get saved and then played) we can affort to save at most 15 of the required 25 cards. This is more than half, so I'd hope there will be games were all required cards get saved, giving a reasonable chance of a 25 card win. Just for fun, I'll make a guess as to how much I think the average score will increase by. I think that each game probably discards 2 or 3 critical cards, but by saving these more cards will become critical and this will eat up more clues. I think therefore that adding these save clues will probably only bring the average up by 1 or 2 cards per game. I think the lower 5% of games won't be affected much but that the top 5% should slide up with a small number of 25 point wins and considerably more (around 5 times as many) 24 point games. Many of these predictions aren't particularly substantiated, but I think it will be interesting to see where my intuition is correct and where it is woefully inadequate.
