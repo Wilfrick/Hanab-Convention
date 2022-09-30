@@ -15,7 +15,7 @@ This is a list of actions to be taken, in order of importance. Once an action is
 4. Clue the rank of the previous player's last card
 ---
 
-This is a list of rules for how to mark cards with globally consistent flags - things like `being playable' or `being discardable' or `having been chop moved'. In this case we have very few such flags.
+We will need a list of rules for how to mark cards with globally consistent flags - things like "being playable" or "being discardable" or "having been chop moved" - but first we need a set of flags to work with. In this case we have very few such flags and they divide cleanly into two distinct categories:
 
 ## System Flags
 - V: (Value) This is the true identity of the card. This can be seen by everyone eccept the current player, is a read only attribute and is the only non global information that the convention can consider using. It
@@ -23,12 +23,12 @@ This is a list of rules for how to mark cards with globally consistent flags - t
 - I: (Index) This is the index of the card in a given person's hand. The front most card is card 0 and the back most card is card 3 or 4. N.B. I = -1 is also the index of the back most card.
 - H: (Hand) This is the offset of the hand from the current player. So a card with H=0 is a card in the current player's hand, whereas H=-1 is a card in the previous player's hand and H=1 is a card in the next player's hand.
 
-These flags are called System Flags because they are updated by the system - no interaction is needed from the convention to keep these up to date. These are also the only flags for which this is true. All other flags need corresponding rules to keep them updated.
+These flags are called System Flags because they are updated by the system - no interaction is needed from the convention to keep them up to date. These are also the only flags for which this is true. All other flags need corresponding rules to keep them updated.
 
 ## Custom Flags
 - IP: (Immediately Playable) This is for a card that fits exactly somewhere on the stacks right now. It does not promise which rank or colour, although that may be deducible.
 ---
-This is a list of rules for modifying the flags of all cards in play in the game. These rules are again applied in order 
+The following is the list of rules for modifying the flags of all cards in play in the game. These rules are again applied in order, but this time all rules are applied, even if a previous one was acted upon.
 
 ## Flag Update Rules
 1. if {n:card[0][n] = T and card[0][n] != IP forall n in I} nonempty => card[0][min{n:card[0][n] = T and card[0][n] != IP forall n in I}] += IP
@@ -37,7 +37,6 @@ This is a list of rules for modifying the flags of all cards in play in the game
 
 ### Expectations
 I expect that this convention should be able to play a few cards, but will undoubtably discard important cards and will surely never win. In fact, due to random usless cluing I think that most games will be lost through misplays rather than discards.
-
 
 ## Results
 After implementing a system to play hanabi for me in Python 3 and then implementing the above convention and testing it in 10000 trial games I have the following score distribution:
